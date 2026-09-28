@@ -1,0 +1,291 @@
+{
+  "revision_reviewed": "D5",
+  "date": "2026-09-26",
+  "read_only": true,
+  "geometry": {
+    "MAIN_POWER": {
+      "thickness": "1.2",
+      "copper": [
+        [
+          "layer",
+          "F.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ],
+        [
+          "layer",
+          "B.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ]
+      ],
+      "track_width_counts": {
+        "2.0": 80,
+        "1.0": 6,
+        "3.0": 24
+      },
+      "fine_tracks": [],
+      "via_sizes": []
+    },
+    "POE_POWER": {
+      "thickness": "1.2",
+      "copper": [
+        [
+          "layer",
+          "F.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ],
+        [
+          "layer",
+          "B.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ]
+      ],
+      "track_width_counts": {
+        "0.25": 13,
+        "0.254": 130,
+        "1.0": 4,
+        "0.3": 20,
+        "0.8": 8,
+        "2.0": 32,
+        "0.15": 5,
+        "0.2": 22,
+        "1.5": 4,
+        "1.2": 4,
+        "0.381": 13
+      },
+      "fine_tracks": [
+        {
+          "layer": "F.Cu",
+          "width": "0.15",
+          "start": [
+            "127.213512",
+            "69.034"
+          ],
+          "end": [
+            "127.561513",
+            "68.6415"
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "width": "0.15",
+          "start": [
+            "125.264512",
+            "68.735501"
+          ],
+          "end": [
+            "125.518512",
+            "69.034"
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "width": "0.15",
+          "start": [
+            "125.518512",
+            "69.034"
+          ],
+          "end": [
+            "127.213512",
+            "69.034"
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "width": "0.15",
+          "start": [
+            "125.264512",
+            "68.735501"
+          ],
+          "end": [
+            "125.264512",
+            "68.165499"
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "width": "0.15",
+          "start": [
+            "127.561513",
+            "68.6415"
+          ],
+          "end": [
+            "127.561513",
+            "67.8525"
+          ]
+        }
+      ],
+      "via_sizes": [
+        [
+          0.508,
+          0.254
+        ],
+        [
+          1.27,
+          0.635
+        ],
+        [
+          0.8,
+          0.4
+        ],
+        [
+          0.7,
+          0.35
+        ]
+      ]
+    },
+    "USB_POWER": {
+      "thickness": "1.6",
+      "copper": [
+        [
+          "layer",
+          "F.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ],
+        [
+          "layer",
+          "In1.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.035"
+          ]
+        ],
+        [
+          "layer",
+          "In2.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.035"
+          ]
+        ],
+        [
+          "layer",
+          "B.Cu",
+          [
+            "type",
+            "copper"
+          ],
+          [
+            "thickness",
+            "0.07"
+          ]
+        ]
+      ],
+      "track_width_counts": {
+        "0.35": 10,
+        "1.2": 32,
+        "0.65": 4,
+        "1.0": 19,
+        "0.2": 71,
+        "0.3": 31,
+        "0.4": 2,
+        "0.8": 16,
+        "0.5": 4,
+        "2.0": 11,
+        "0.9": 6,
+        "0.25": 6
+      },
+      "fine_tracks": [],
+      "via_sizes": [
+        [
+          0.45,
+          0.25
+        ],
+        [
+          0.6,
+          0.3
+        ]
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "stackup_names",
+      "severity": "repair",
+      "boards": [
+        "MAIN_POWER",
+        "POE_POWER"
+      ],
+      "action": "Rename two inner copper stackup layers In1.Cu/In2.Cu and remove dielectric properties; preserve 1.2mm/2-1-1-2oz"
+    },
+    {
+      "id": "poe_015_tracks",
+      "severity": "resolve_published_conflict",
+      "count": 5,
+      "action": "Conservative minimum0.16mm width/0.20mmspace then nativeDRC"
+    },
+    {
+      "id": "vippo_flags",
+      "severity": "manufacturing_instruction",
+      "action": "Explicit epoxy-filled copper-capped pad vias; exclude0.635mm ordinaryPOEvias unless supplieraccepts"
+    },
+    {
+      "id": "small_main_silk",
+      "severity": "legibility",
+      "count": 13,
+      "action": "Important legends\u22651mm and0.15mmstroke"
+    },
+    {
+      "id": "heavy_inductor",
+      "severity": "quote_requirement",
+      "part": "C19276042",
+      "action": "Include specifiedassemblyfixture"
+    },
+    {
+      "id": "attrition",
+      "severity": "quote_requirement",
+      "action": "Part-specificminimumandattrition; installed1310notpurchasequantity"
+    }
+  ],
+  "sources": [
+    "https://jlcpcb.com/impedance",
+    "https://jlcpcb.com/help/article/jlcpcb-copper-weight",
+    "https://jlcpcb.com/pcb-fabrication/fr4-pcb",
+    "https://jlcpcb.com/capabilities/Capab",
+    "https://jlcpcb.com/help/article/pcb-via-covering",
+    "https://jlcpcb.com/partdetail/Coilcraft-SER2915H103KL/C19276042",
+    "https://jlcpcb.com/help/article/pcb-assembly-faqs-part-2"
+  ]
+}

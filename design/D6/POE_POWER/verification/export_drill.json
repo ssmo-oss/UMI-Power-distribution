@@ -1,0 +1,35 @@
+{
+  "command": [
+    "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "pcb",
+    "export",
+    "drill",
+    "--format",
+    "excellon",
+    "--drill-origin",
+    "plot",
+    "--excellon-units",
+    "mm",
+    "--excellon-separate-th",
+    "--generate-map",
+    "--map-format",
+    "pdf",
+    "--output",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\POE_POWER.kicad_pcb"
+  ],
+  "process_error_mode_hex": "0x8003",
+  "creation_flags": "CREATE_NO_WINDOW",
+  "timeout_seconds": 60,
+  "environment_overrides": {
+    "TEMP": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\temp",
+    "TMP": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\temp",
+    "KICAD_CONFIG_HOME": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\config"
+  },
+  "exit_code": 0,
+  "exit_code_hex": "0x0",
+  "stdout": "Created file 'C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-PTH.drl'\nCreated file 'C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-NPTH.drl'\nCreated file 'C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-PTH-drl_map.pdf'.\nCreated file 'C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-NPTH-drl_map.pdf'.\nDone.\n",
+  "stderr": "",
+  "timed_out": false,
+  "elapsed_seconds": 0.406
+}

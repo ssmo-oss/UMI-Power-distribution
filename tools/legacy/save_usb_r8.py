@@ -1,0 +1,3 @@
+import json
+from pathlib import Path
+Path('work/jlc_usb_r8_approval.json').write_text(json.dumps(dict(reference='UMI_USB_D3:R8',original='RC0603FR-0715K8L',replacement='ERJ-3EKF1582V',jlc_model='ERJ3EKF1582V',jlc_code='C403003',root_live_ui_stock=4503,root_live_ui_minimum=1,primary_source='https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ3EKF1582V',verified_specs=dict(resistance_ohm=15800,tolerance_percent=1,power_watt=.1,tcr_ppm_per_K=100,body_mm=[1.6,.8],package='0603'),assessment='Approved nominal/mechanical substitution: same resistance,tolerance,TCR,power and footprint. No value or layout change required.'),indent=2))

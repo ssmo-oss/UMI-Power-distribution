@@ -1,0 +1,130 @@
+{
+  "source": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\MAIN_POWER\\MAIN_POWER.kicad_pcb",
+  "source_sha256": "80d8bd5bdd6d9e96bbac56d41d675d5c0e80523ba0791100031d8f7a1d5eb122",
+  "source_unchanged": true,
+  "label_count": 15,
+  "labels": [
+    {
+      "reference": "F4",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H2",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "H3",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "H4",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "J1",
+      "local_label_center_mm": [
+        10.16,
+        17.38
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "J4",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "J3",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "J2",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "F2",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "F3",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "F5",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "F1",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "J5",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H1",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "J6",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    }
+  ],
+  "detail_box_mm": null,
+  "scope": "Reference-only assembly visualization; disposable copy is not a manufacturing board"
+}

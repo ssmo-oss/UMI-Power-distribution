@@ -1,0 +1,33 @@
+{
+  "board": "USB_POWER",
+  "independent_parser": "gerbonara1.6.3",
+  "copper_layers": {
+    "('top', 'copper')": 431,
+    "('bottom', 'copper')": 159,
+    "('inner_1', 'copper')": 134,
+    "('inner_2', 'copper')": 141
+  },
+  "outline_stroke_bounds_mm": [
+    [
+      -0.025,
+      -0.025
+    ],
+    [
+      80.025,
+      50.025
+    ]
+  ],
+  "exported_drill_count": 137,
+  "expected_drill_count": 137,
+  "smt_position_count": 31,
+  "drill_positions_and_sizes_match_board": true,
+  "cpl_references_and_centres_match_board": true,
+  "parser_warnings": [
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\USB_POWER\\manufacturing\\USB_POWER-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\USB_POWER\\manufacturing\\USB_POWER-PTH.drl:20 \"G90\": G90 header statement found after end of header",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"top paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline",
+    "Layer \"bottom paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline"
+  ],
+  "scope": "Export consistency and independent parsing; not electrical or hardware qualification"
+}

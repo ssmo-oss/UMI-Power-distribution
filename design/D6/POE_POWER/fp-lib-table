@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "UMI_D2") (type "KiCad") (uri "${KIPRJMOD}/UMI_D2.pretty") (options "") (descr "Self contained verified footprints")))

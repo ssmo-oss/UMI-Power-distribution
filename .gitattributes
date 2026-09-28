@@ -1,0 +1,6 @@
+# Preserve delivered bytes, including manufacturing checksums.
+* -text
+*.zip binary
+*.png binary
+*.pdf binary
+*.xlsx binary

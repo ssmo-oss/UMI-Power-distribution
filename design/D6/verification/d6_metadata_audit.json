@@ -1,0 +1,23 @@
+{
+  "MAIN_POWER": {
+    "issues": [],
+    "parts": 11,
+    "smt_count": 0,
+    "pcb_sha256": "80d8bd5bdd6d9e96bbac56d41d675d5c0e80523ba0791100031d8f7a1d5eb122",
+    "orientation_method": "D4 proven canonical pad rotation plus unchanged D6 numbered-pad geometry, baked angle and source identity"
+  },
+  "POE_POWER": {
+    "issues": [],
+    "parts": 56,
+    "smt_count": 53,
+    "pcb_sha256": "e85bacfdb8fe29c9a44298a935f7061b7c228fbfd8944142202f4d173b926b8d",
+    "orientation_method": "D4 proven canonical pad rotation plus unchanged D6 numbered-pad geometry, baked angle and source identity"
+  },
+  "USB_POWER": {
+    "issues": [],
+    "parts": 34,
+    "smt_count": 31,
+    "pcb_sha256": "63241cd11a4b7b8ae08dc7613a32087cb6d852097224a8898f84db6a12aef8f9",
+    "orientation_method": "D4 proven canonical pad rotation plus unchanged D6 numbered-pad geometry, baked angle and source identity"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "MAIN_POWER": {
+    "enlarged_labels": [
+      "12V ONLY  |  FUSES ARE NOT LOAD RATINGS",
+      "+",
+      "+",
+      "-",
+      "-",
+      "+",
+      "+",
+      "+",
+      "-",
+      "-",
+      "-",
+      "UPSTREAM PSU CABLE PROTECTION REQUIRED",
+      "JETSON 5A  /  FAN 0.14A  /  USB FEED 3A"
+    ],
+    "filled_capped_vias": 0,
+    "ordinary_vias": 0
+  },
+  "POE_POWER": {
+    "enlarged_labels": [],
+    "filled_capped_vias": 47,
+    "ordinary_vias": 13
+  },
+  "USB_POWER": {
+    "enlarged_labels": [],
+    "filled_capped_vias": 119,
+    "ordinary_vias": 0
+  }
+}

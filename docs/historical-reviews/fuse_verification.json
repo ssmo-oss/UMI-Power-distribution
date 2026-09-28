@@ -1,0 +1,209 @@
+{
+  "source_pdf": "https://xonstorage.z8.web.core.windows.net/pdf/littelfuse_16670004402_apr22_xonlink.pdf",
+  "manufacturer": "Littelfuse",
+  "publication_year": 2012,
+  "verified_f6_candidates": [
+    {
+      "mpn": "166.7000.4302",
+      "current_A": 3,
+      "voltage_VDC": 80,
+      "package_quantity": 500
+    },
+    {
+      "mpn": "166.7000.4306",
+      "current_A": 3,
+      "voltage_VDC": 80,
+      "package_quantity": 100
+    }
+  ],
+  "interrupt_rating_A_at_80VDC": 1000,
+  "maximum_continuous_factor_at_23C": 0.7,
+  "temperature_factor_at_40C": null,
+  "time_current_windows_seconds": {
+    "110_percent": [
+      360000,
+      null
+    ],
+    "150_percent": [
+      0.5,
+      300
+    ],
+    "200_percent": [
+      0.15,
+      20
+    ],
+    "350_percent": [
+      0.04,
+      0.5
+    ],
+    "600_percent": [
+      0.02,
+      0.1
+    ]
+  },
+  "mechanical_mm": {
+    "body_width": 19,
+    "body_depth": 5,
+    "overall_height": 19.7,
+    "blade_exposed_length": 6.5,
+    "blade_width": 5.2,
+    "blade_thickness": 0.62,
+    "outer_blade_span": 14.5
+  },
+  "current_lifecycle": "Unverified; root reports distributor end-of-life indications; do not release without active substitute or acceptable traceable stock decision",
+  "f1_f5_order_codes_verified": true,
+  "replacement_order_code_verified": true,
+  "preferred_eska": {
+    "source": "https://www.eska-fuses.de/fileadmin/produkte/datenblaetter/ESKA_KFZ_Sicherungen.pdf",
+    "download_date": "2026-09-26",
+    "status": "Listed in manufacturer catalog currently linked from official product navigation; live stock not verified",
+    "parts": [
+      {
+        "references": [
+          "F1",
+          "F2"
+        ],
+        "mpn": "340.026",
+        "current_A": 7.5,
+        "voltage_VDC": 32,
+        "quantity": 2,
+        "page": 16
+      },
+      {
+        "references": [
+          "F3"
+        ],
+        "mpn": "340.017",
+        "current_A": 1,
+        "voltage_VDC": 32,
+        "quantity": 1,
+        "page": 16
+      },
+      {
+        "references": [
+          "F4"
+        ],
+        "mpn": "340.024",
+        "current_A": 5,
+        "voltage_VDC": 32,
+        "quantity": 1,
+        "page": 16
+      },
+      {
+        "references": [
+          "F5"
+        ],
+        "mpn": "340.027",
+        "current_A": 10,
+        "voltage_VDC": 32,
+        "quantity": 1,
+        "page": 16
+      },
+      {
+        "references": [
+          "F6"
+        ],
+        "mpn": "340.022-80V",
+        "current_A": 3,
+        "voltage_VDC": 80,
+        "quantity": 1,
+        "page": 19
+      }
+    ],
+    "interrupt_rating_A": 1000,
+    "series32V": {
+      "temperature_range_C": [
+        -40,
+        125
+      ],
+      "derating_factor_at_40C_approx": 0.97,
+      "derating_basis": "graph read, approximate, not an exact tabulated specification",
+      "time_windows_s": {
+        "110_percent": [
+          360000,
+          null
+        ],
+        "135_percent": [
+          0.75,
+          600
+        ],
+        "200_percent": [
+          0.15,
+          5
+        ],
+        "350_percent": [
+          0.04,
+          0.5
+        ],
+        "600_percent": [
+          0.02,
+          0.1
+        ]
+      },
+      "mechanical_mm": {
+        "width": 19,
+        "depth": 4.5,
+        "height": 20,
+        "blade_length": 6.5,
+        "blade_width": 5.25,
+        "blade_thickness": 0.63,
+        "outer_blade_span": 14.5
+      }
+    },
+    "series80V": {
+      "time_windows_s": {
+        "110_percent": [
+          360000,
+          null
+        ],
+        "150_percent": [
+          0.5,
+          300
+        ],
+        "200_percent": [
+          0.15,
+          20
+        ],
+        "350_percent": [
+          0.04,
+          0.5
+        ],
+        "600_percent": [
+          0.02,
+          0.1
+        ]
+      },
+      "temperature_derating_40C": null,
+      "mechanical_mm": {
+        "width": [
+          19,
+          0.2
+        ],
+        "depth": [
+          4.9,
+          0.2
+        ],
+        "height": [
+          19.5,
+          0.5
+        ],
+        "blade_length": [
+          6.4,
+          0.3
+        ],
+        "blade_width": [
+          5.1,
+          0.1
+        ],
+        "blade_thickness": [
+          0.6,
+          0.05
+        ],
+        "outer_blade_span": [
+          14.4,
+          0.2
+        ]
+      }
+    }
+  }
+}

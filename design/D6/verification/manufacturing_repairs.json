@@ -1,0 +1,103 @@
+{
+  "MAIN_POWER": {
+    "before_sha256": "662de1addffdc3fd0ea1ba614c8b525d00163acced71115a404bc13121066869",
+    "after_sha256": "37271f56f3b6ef868a7614affd28a358eac87ba338a795e7d90a3b522de09fa9",
+    "changes": [
+      {
+        "stackup_layer_before": "dielectric 2",
+        "after": "In1.Cu"
+      },
+      {
+        "stackup_layer_before": "dielectric 4",
+        "after": "In2.Cu"
+      }
+    ],
+    "native_clearance_verification": "Final D6 DRC passed at configured 0.20 mm clearance; see per-board report"
+  },
+  "POE_POWER": {
+    "before_sha256": "73214ca206f64d1e3aefad34304fe2232bbafd5e636f5705c60e430d7deaee32",
+    "after_sha256": "3872a725a294eef24c86db72185ce11c1745f7ae8a5ad4f79a30c800921b75f3",
+    "changes": [
+      {
+        "stackup_layer_before": "dielectric 2",
+        "after": "In1.Cu"
+      },
+      {
+        "stackup_layer_before": "dielectric 4",
+        "after": "In2.Cu"
+      },
+      {
+        "track": "0c645818-f5a9-5e87-a43d-9e56af2f5d5a",
+        "before": 0.15,
+        "after": 0.16,
+        "start": [
+          "127.213512",
+          "69.034"
+        ],
+        "end": [
+          "127.561513",
+          "68.6415"
+        ]
+      },
+      {
+        "track": "22074ed1-6b73-5cd2-9191-b1db6a8ebc19",
+        "before": 0.15,
+        "after": 0.16,
+        "start": [
+          "125.264512",
+          "68.735501"
+        ],
+        "end": [
+          "125.518512",
+          "69.034"
+        ]
+      },
+      {
+        "track": "51a47d79-bbdd-5911-a3d1-e048d4743c5b",
+        "before": 0.15,
+        "after": 0.16,
+        "start": [
+          "125.518512",
+          "69.034"
+        ],
+        "end": [
+          "127.213512",
+          "69.034"
+        ]
+      },
+      {
+        "track": "9f1c1d1e-936a-5a13-bfc1-bc40fa8d99e8",
+        "before": 0.15,
+        "after": 0.16,
+        "start": [
+          "125.264512",
+          "68.735501"
+        ],
+        "end": [
+          "125.264512",
+          "68.165499"
+        ]
+      },
+      {
+        "track": "f44760e2-b3fa-52e7-829c-a458bb7487d9",
+        "before": 0.15,
+        "after": 0.16,
+        "start": [
+          "127.561513",
+          "68.6415"
+        ],
+        "end": [
+          "127.561513",
+          "67.8525"
+        ]
+      }
+    ],
+    "native_clearance_verification": "Final D6 DRC passed at configured 0.20 mm clearance; see per-board report"
+  },
+  "USB_POWER": {
+    "before_sha256": "b9b4cee8216d3fc38701c76cb6bfcb948cacf48ea7c1d441b2c109f2c992c72b",
+    "after_sha256": "b9b4cee8216d3fc38701c76cb6bfcb948cacf48ea7c1d441b2c109f2c992c72b",
+    "changes": [],
+    "native_clearance_verification": "Final D6 DRC passed at configured 0.20 mm clearance; see per-board report"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "board": "POE_POWER",
+  "independent_parser": "gerbonara1.6.3",
+  "copper_layers": {
+    "('top', 'copper')": 451,
+    "('bottom', 'copper')": 92,
+    "('inner_1', 'copper')": 91,
+    "('inner_2', 'copper')": 98
+  },
+  "outline_stroke_bounds_mm": [
+    [
+      -0.025,
+      -0.025
+    ],
+    [
+      106.025,
+      100.025
+    ]
+  ],
+  "exported_drill_count": 78,
+  "expected_drill_count": 78,
+  "smt_position_count": 53,
+  "drill_positions_and_sizes_match_board": true,
+  "cpl_references_and_centres_match_board": true,
+  "parser_warnings": [
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-NPTH.drl:14 \"G90\": G90 header statement found after end of header",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\manufacturing\\POE_POWER-PTH.drl:22 \"G90\": G90 header statement found after end of header",
+    "Aperture definition using macro RoundRect has more parameters than the macro uses.",
+    "Layer \"top paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline",
+    "Layer \"bottom paste\" not found. Found layers: top copper, top mask, top silk, bottom copper, bottom mask, bottom silk, inner_1 copper, inner_2 copper, mechanical outline"
+  ],
+  "scope": "Export consistency and independent parsing; not electrical or hardware qualification"
+}

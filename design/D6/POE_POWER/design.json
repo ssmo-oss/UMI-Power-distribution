@@ -1,0 +1,1597 @@
+[
+  {
+    "ref": "J1",
+    "value": "12V FROM MAIN",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "12V_IN"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      72.0,
+      37.0
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {}
+  },
+  {
+    "ref": "F6",
+    "value": "3A 80V BOOST OUTPUT FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "53V5_RAW"
+      ],
+      "2": [
+        "2",
+        "SWITCH_53V5"
+      ]
+    },
+    "pos": [
+      146.0,
+      89.0
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J6",
+    "value": "SWITCH 53.5V 1.31A",
+    "fp": "UMI_D2:JST_VH_B3P-VH_1x03_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+53V5",
+        "SWITCH_53V5"
+      ],
+      "2": [
+        "NC",
+        null
+      ],
+      "3": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      144.0,
+      101.0
+    ],
+    "mpn": "B3P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B3P-VH_1x03_P3.96mm_Vertical"
+  },
+  {
+    "ref": "U1",
+    "value": "LM5122MHX/NOPB",
+    "fp": "UMI_D2:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm_R270",
+    "pins": {
+      "1": [
+        "SYNCOUT",
+        null
+      ],
+      "2": [
+        "OPT",
+        "OPT"
+      ],
+      "3": [
+        "CSN",
+        "CSN"
+      ],
+      "4": [
+        "CSP",
+        "CSP"
+      ],
+      "5": [
+        "VIN",
+        "IC_VIN"
+      ],
+      "6": [
+        "UVLO",
+        "UVLO"
+      ],
+      "7": [
+        "SS",
+        "SS"
+      ],
+      "8": [
+        "RT",
+        "RT"
+      ],
+      "9": [
+        "AGND",
+        "GND"
+      ],
+      "10": [
+        "FB",
+        "FB"
+      ],
+      "11": [
+        "COMP",
+        "COMP"
+      ],
+      "12": [
+        "SLOPE",
+        "SLOPE"
+      ],
+      "13": [
+        "MODE",
+        "MODE"
+      ],
+      "14": [
+        "RES",
+        "RES"
+      ],
+      "15": [
+        "PGND",
+        "GND"
+      ],
+      "16": [
+        "LO",
+        "LO"
+      ],
+      "17": [
+        "VCC",
+        "VCC"
+      ],
+      "18": [
+        "SW",
+        "SW"
+      ],
+      "19": [
+        "HO",
+        "HO"
+      ],
+      "20": [
+        "BST",
+        "BST"
+      ],
+      "21": [
+        "EP",
+        "GND"
+      ]
+    },
+    "pos": [
+      129.831,
+      65.102
+    ],
+    "mpn": "LM5122MHX/NOPB",
+    "types": {
+      "5": "power_in",
+      "17": "power_out",
+      "3": "input",
+      "4": "input",
+      "6": "input",
+      "10": "input",
+      "16": "output",
+      "19": "output"
+    },
+    "rotation": 270,
+    "source_fp": "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm"
+  },
+  {
+    "ref": "L1",
+    "value": "10uH",
+    "fp": "UMI_D2:Coilcraft_SER2915H",
+    "pins": {
+      "1": [
+        "IN",
+        "SENSE_LOW"
+      ],
+      "2": [
+        "OUT",
+        "SW"
+      ],
+      "3": [
+        "MOUNT",
+        null
+      ]
+    },
+    "pos": [
+      113.447999,
+      26.036
+    ],
+    "mpn": "SER2915H-103KL",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "UMI_D2:Coilcraft_SER2915H"
+  },
+  {
+    "ref": "L2",
+    "value": "1uH",
+    "fp": "UMI_D2:L_Coilcraft_XAL4020-XXX",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_OUT"
+      ],
+      "2": [
+        "2",
+        "53V5_RAW"
+      ]
+    },
+    "pos": [
+      152.437,
+      39.194
+    ],
+    "mpn": "XAL4020-102MEC",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Inductor_SMD:L_Coilcraft_XAL4020-XXX"
+  },
+  {
+    "ref": "Q1",
+    "value": "BSC040N08NS5",
+    "fp": "UMI_D2:BSC072N08NS5_TDSON_8_R270",
+    "pins": {
+      "1": [
+        "S",
+        "SW"
+      ],
+      "2": [
+        "S",
+        "SW"
+      ],
+      "3": [
+        "S",
+        "SW"
+      ],
+      "4": [
+        "G",
+        "HO"
+      ],
+      "5": [
+        "D",
+        "BOOST_OUT"
+      ],
+      "6": [
+        "D",
+        "BOOST_OUT"
+      ],
+      "7": [
+        "D",
+        "BOOST_OUT"
+      ],
+      "8": [
+        "D",
+        "BOOST_OUT"
+      ]
+    },
+    "pos": [
+      124.877997,
+      40.896998
+    ],
+    "mpn": "BSC040N08NS5",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "UMI_D2:BSC072N08NS5_TDSON_8"
+  },
+  {
+    "ref": "Q2",
+    "value": "BSC040N08NS5",
+    "fp": "UMI_D2:BSC072N08NS5_TDSON_8_R270",
+    "pins": {
+      "1": [
+        "S",
+        "GND"
+      ],
+      "2": [
+        "S",
+        "GND"
+      ],
+      "3": [
+        "S",
+        "GND"
+      ],
+      "4": [
+        "G",
+        "GATE2"
+      ],
+      "5": [
+        "D",
+        "SW"
+      ],
+      "6": [
+        "D",
+        "SW"
+      ],
+      "7": [
+        "D",
+        "SW"
+      ],
+      "8": [
+        "D",
+        "SW"
+      ]
+    },
+    "pos": [
+      134.656997,
+      49.786998
+    ],
+    "mpn": "BSC040N08NS5",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "UMI_D2:BSC072N08NS5_TDSON_8"
+  },
+  {
+    "ref": "Q3",
+    "value": "BSC040N08NS5",
+    "fp": "UMI_D2:BSC072N08NS5_TDSON_8_R270",
+    "pins": {
+      "1": [
+        "S",
+        "GND"
+      ],
+      "2": [
+        "S",
+        "GND"
+      ],
+      "3": [
+        "S",
+        "GND"
+      ],
+      "4": [
+        "G",
+        "GATE3"
+      ],
+      "5": [
+        "D",
+        "SW"
+      ],
+      "6": [
+        "D",
+        "SW"
+      ],
+      "7": [
+        "D",
+        "SW"
+      ],
+      "8": [
+        "D",
+        "SW"
+      ]
+    },
+    "pos": [
+      125.004997,
+      49.659998
+    ],
+    "mpn": "BSC040N08NS5",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "UMI_D2:BSC072N08NS5_TDSON_8"
+  },
+  {
+    "ref": "C1",
+    "value": "470pF 100V",
+    "fp": "UMI_D2:C_0805_2012Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "SNUB"
+      ],
+      "2": [
+        "2",
+        "SW"
+      ]
+    },
+    "pos": [
+      139.864,
+      44.704999
+    ],
+    "mpn": "C0805C471J1GACTU",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  {
+    "ref": "C2",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_IN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      100.24,
+      48.211
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C3",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_IN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      103.415,
+      48.211
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C4",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_IN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      106.59,
+      48.211
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C5",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_OUT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      142.912,
+      44.909
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C6",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_OUT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      149.389,
+      44.909
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C7",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_OUT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      146.214,
+      44.909
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C8",
+    "value": "4.7uF 80V",
+    "fp": "UMI_D2:C_1210_3225Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_OUT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      152.564,
+      44.909
+    ],
+    "mpn": "GRM32ER71K475KE14L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C9",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "SW"
+      ],
+      "2": [
+        "2",
+        "BST"
+      ]
+    },
+    "pos": [
+      126.402001,
+      59.514
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C10",
+    "value": "100pF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "CSN"
+      ],
+      "2": [
+        "2",
+        "CSP"
+      ]
+    },
+    "pos": [
+      126.147999,
+      71.198
+    ],
+    "mpn": "GRM1885C1H101JA01D",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C11",
+    "value": "1uF 16V",
+    "fp": "UMI_D2:C_0603_1608Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "VCC"
+      ]
+    },
+    "pos": [
+      129.069001,
+      59.514
+    ],
+    "mpn": "GCM188R71C105KA64D",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C13",
+    "value": "100pF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "UVLO"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      134.403,
+      71.832999
+    ],
+    "mpn": "GRM1885C1H101JA01D",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C14",
+    "value": "47nF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "RES"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      130.974,
+      58.879001
+    ],
+    "mpn": "CC0603KRX7R9BB473",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C15",
+    "value": "470nF 100V",
+    "fp": "UMI_D2:C_0805_2012Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "IC_VIN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      128.561,
+      72.086999
+    ],
+    "mpn": "GRM21BR72A474KA73L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  {
+    "ref": "C16",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "SS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      135.8,
+      71.832999
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C17",
+    "value": "1500pF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "COMP"
+      ],
+      "2": [
+        "2",
+        "FB"
+      ]
+    },
+    "pos": [
+      134.403,
+      64.085999
+    ],
+    "mpn": "GRM1885C1H152JA01D",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C18",
+    "value": "15nF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "COMP"
+      ],
+      "2": [
+        "2",
+        "COMP_RC"
+      ]
+    },
+    "pos": [
+      135.037999,
+      62.181
+    ],
+    "mpn": "CC0603KRX7R9BB153",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C19",
+    "value": "47uF 80V",
+    "fp": "UMI_D2:Panasonic_FK_G_10x10.2_R90",
+    "pins": {
+      "1": [
+        "+",
+        "BOOST_IN"
+      ],
+      "2": [
+        "-",
+        "GND"
+      ]
+    },
+    "pos": [
+      92.62,
+      45.289999
+    ],
+    "mpn": "EEE-FK1K470P",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "UMI_D2:Panasonic_FK_G_10x10.2"
+  },
+  {
+    "ref": "C20",
+    "value": "47uF 80V",
+    "fp": "UMI_D2:Panasonic_FK_G_10x10.2_R90",
+    "pins": {
+      "1": [
+        "+",
+        "53V5_RAW"
+      ],
+      "2": [
+        "-",
+        "GND"
+      ]
+    },
+    "pos": [
+      160.684,
+      45.289999
+    ],
+    "mpn": "EEE-FK1K470P",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "UMI_D2:Panasonic_FK_G_10x10.2"
+  },
+  {
+    "ref": "R1",
+    "value": "7.5",
+    "fp": "UMI_D2:R_2010_5025Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "SNUB"
+      ],
+      "2": [
+        "2",
+        "BOOST_OUT"
+      ]
+    },
+    "pos": [
+      139.864,
+      40.083
+    ],
+    "mpn": "RC2010JK-077R5L",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Resistor_SMD:R_2010_5025Metric",
+    "manufacturer": "Yageo",
+    "jlc_code": "C4169838"
+  },
+  {
+    "ref": "R2",
+    "value": "4m 1%",
+    "fp": "UMI_D2:EverOhms_MA2512_2to5mOhm_R270",
+    "pins": {
+      "1": [
+        "1",
+        "BOOST_IN"
+      ],
+      "2": [
+        "2",
+        "SENSE_LOW"
+      ]
+    },
+    "pos": [
+      100.621,
+      41.734
+    ],
+    "mpn": "MA251230FR004MZ",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "UMI_D2:EverOhms_MA2512_2to5mOhm"
+  },
+  {
+    "ref": "R3",
+    "value": "100",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "CSP"
+      ],
+      "2": [
+        "2",
+        "BOOST_IN"
+      ]
+    },
+    "pos": [
+      126.91,
+      73.102999
+    ],
+    "mpn": "ESR03EZPJ101",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R4",
+    "value": "100",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "CSN"
+      ],
+      "2": [
+        "2",
+        "SENSE_LOW"
+      ]
+    },
+    "pos": [
+      125.513,
+      73.102999
+    ],
+    "mpn": "ESR03EZPJ101",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R5",
+    "value": "0",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "GATE2"
+      ],
+      "2": [
+        "2",
+        "LO"
+      ]
+    },
+    "pos": [
+      138.594,
+      53.417999
+    ],
+    "mpn": "ERJ-3GEY0R00V",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R21",
+    "value": "0",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "GATE3"
+      ],
+      "2": [
+        "2",
+        "LO"
+      ]
+    },
+    "pos": [
+      127.544999,
+      54.18
+    ],
+    "mpn": "ERJ-3GEY0R00V",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R8",
+    "value": "0",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "OPT"
+      ]
+    },
+    "pos": [
+      125.259,
+      67.514999
+    ],
+    "mpn": "ERJ-3GEY0R00V",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R10",
+    "value": "49.9k",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "UVLO"
+      ],
+      "2": [
+        "2",
+        "BOOST_IN"
+      ]
+    },
+    "pos": [
+      131.609,
+      71.832999
+    ],
+    "mpn": "CRCW060349K9FKEA",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R11",
+    "value": "3.3 1%",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "IC_VIN"
+      ],
+      "2": [
+        "2",
+        "BOOST_IN"
+      ]
+    },
+    "pos": [
+      130.212,
+      71.832999
+    ],
+    "mpn": "RC0603FR-073R3L",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R12",
+    "value": "0",
+    "fp": "UMI_D2:R_0603_1608Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "MODE"
+      ],
+      "2": [
+        "2",
+        "VCC"
+      ]
+    },
+    "pos": [
+      132.371,
+      58.879001
+    ],
+    "mpn": "ERJ-3GEY0R00V",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R13",
+    "value": "8.45k",
+    "fp": "UMI_D2:R_0603_1608Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "UVLO"
+      ]
+    },
+    "pos": [
+      133.006,
+      71.833001
+    ],
+    "mpn": "RC0603FR-078K45L",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R14",
+    "value": "30k",
+    "fp": "UMI_D2:R_0603_1608Metric_R90",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "SLOPE"
+      ]
+    },
+    "pos": [
+      135.165,
+      58.878999
+    ],
+    "mpn": "CRCW060330K0JNEA",
+    "types": {},
+    "rotation": 90,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R16",
+    "value": "40.2k",
+    "fp": "UMI_D2:R_0603_1608Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "RT"
+      ]
+    },
+    "pos": [
+      137.197,
+      71.833001
+    ],
+    "mpn": "CRCW060340K2FKEA",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R17",
+    "value": "20.5k",
+    "fp": "UMI_D2:R_0603_1608Metric_R270",
+    "pins": {
+      "1": [
+        "1",
+        "FB"
+      ],
+      "2": [
+        "2",
+        "COMP_RC"
+      ]
+    },
+    "pos": [
+      135.8,
+      64.086001
+    ],
+    "mpn": "CRCW060320K5FKEA",
+    "types": {},
+    "rotation": 270,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R18",
+    "value": "1.96k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "GND"
+      ],
+      "2": [
+        "2",
+        "FB"
+      ]
+    },
+    "pos": [
+      135.038001,
+      67.896
+    ],
+    "mpn": "RT0603BRD071K96L",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R19",
+    "value": "84.5k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "FB"
+      ],
+      "2": [
+        "2",
+        "FB_HIGH"
+      ]
+    },
+    "pos": [
+      135.037999,
+      66.499
+    ],
+    "mpn": "ERA-3AEB8452V",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R20",
+    "value": "953 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "FB_HIGH"
+      ],
+      "2": [
+        "2",
+        "53V5_RAW"
+      ]
+    },
+    "pos": [
+      137.777999,
+      66.499
+    ],
+    "mpn": "RT0603BRD07953RL",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "D2",
+    "value": "MBR1H100SFT3G",
+    "fp": "UMI_D2:D_SOD-123F",
+    "pins": {
+      "1": [
+        "K",
+        "BST"
+      ],
+      "2": [
+        "A",
+        "VCC"
+      ]
+    },
+    "pos": [
+      126.656,
+      57.355
+    ],
+    "mpn": "NRVB1H100SFT3G",
+    "types": {},
+    "rotation": 0,
+    "source_fp": "Diode_SMD:D_SOD-123F"
+  },
+  {
+    "ref": "U2",
+    "value": "TPS259824ONRGER",
+    "fp": "UMI_D2:TI_RGE0024M_TPS25982",
+    "pins": {
+      "1": [
+        "IN",
+        "12V_IN"
+      ],
+      "2": [
+        "IN",
+        "12V_IN"
+      ],
+      "3": [
+        "IN",
+        "12V_IN"
+      ],
+      "16": [
+        "IN",
+        "12V_IN"
+      ],
+      "25": [
+        "IN",
+        "12V_IN"
+      ],
+      "17": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "18": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "19": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "20": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "21": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "22": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "23": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "24": [
+        "OUT",
+        "BOOST_IN"
+      ],
+      "4": [
+        "GND",
+        "GND"
+      ],
+      "5": [
+        "GND",
+        "GND"
+      ],
+      "14": [
+        "GND",
+        "GND"
+      ],
+      "26": [
+        "GND",
+        "GND"
+      ],
+      "6": [
+        "EN_UVLO",
+        "EFUSE_EN"
+      ],
+      "7": [
+        "ITIMER",
+        null
+      ],
+      "8": [
+        "ILIM",
+        "EFUSE_ILIM"
+      ],
+      "9": [
+        "IMON",
+        "EFUSE_IMON"
+      ],
+      "10": [
+        "RETRY_DLY",
+        "GND"
+      ],
+      "11": [
+        "NRETRY",
+        null
+      ],
+      "12": [
+        "LDSTRT",
+        "GND"
+      ],
+      "13": [
+        "PG",
+        "UVLO"
+      ],
+      "15": [
+        "DVDT",
+        "EFUSE_DVDT"
+      ]
+    },
+    "pos": [
+      79.0,
+      60.0
+    ],
+    "mpn": "TPS259824ONRGER",
+    "types": {
+      "1": "power_in",
+      "25": "power_in",
+      "17": "power_out",
+      "6": "input",
+      "13": "open_collector"
+    },
+    "source_fp": "UMI_D2:TI_RGE0024M_TPS25982"
+  },
+  {
+    "ref": "R22",
+    "value": "100k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "EFUSE_EN"
+      ]
+    },
+    "pos": [
+      73.0,
+      57.0
+    ],
+    "mpn": "RT0603BRD07100KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R23",
+    "value": "13.7k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "EFUSE_EN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      74.65,
+      60.0
+    ],
+    "mpn": "RT0603BRD0713K7L",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R24",
+    "value": "182 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "EFUSE_ILIM"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      76.0,
+      65.0
+    ],
+    "mpn": "RT0603BRD07182RL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R25",
+    "value": "511 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "EFUSE_IMON"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      81.0,
+      65.0
+    ],
+    "mpn": "RT0603BRD07511RL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "C21",
+    "value": "1uF 50V X7R",
+    "fp": "UMI_D2:C_0805_2012Metric",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      73.0,
+      52.0
+    ],
+    "mpn": "GRM21BR71H105KA12L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0805_2012Metric"
+  },
+  {
+    "ref": "C22",
+    "value": "100nF 50V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      73.0,
+      49.0
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C23",
+    "value": "6.8nF 50V C0G",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "EFUSE_DVDT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      85.0,
+      60.0
+    ],
+    "mpn": "GRM1885C1H682JA01D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "D3",
+    "value": "SMBJ15A",
+    "fp": "UMI_D2:D_SMB",
+    "pins": {
+      "1": [
+        "K",
+        "12V_IN"
+      ],
+      "2": [
+        "A",
+        "GND"
+      ]
+    },
+    "pos": [
+      72.0,
+      70.0
+    ],
+    "mpn": "SMBJ15A",
+    "types": {},
+    "source_fp": "Diode_SMD:D_SMB"
+  },
+  {
+    "ref": "D4",
+    "value": "SS10P4-M3/86A",
+    "fp": "UMI_D2:TO-277A",
+    "pins": {
+      "1": [
+        "A1",
+        "GND"
+      ],
+      "2": [
+        "A2",
+        "GND"
+      ],
+      "3": [
+        "K",
+        "BOOST_IN"
+      ]
+    },
+    "pos": [
+      79.0,
+      53.0
+    ],
+    "mpn": "SS10P4-M3/86A",
+    "types": {},
+    "source_fp": "Package_TO_SOT_SMD:TO-277A"
+  },
+  {
+    "ref": "H1",
+    "value": "MountingHole_3.2mm_M3",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      69.0,
+      15.0
+    ],
+    "mpn": "MECHANICAL",
+    "types": {}
+  },
+  {
+    "ref": "H2",
+    "value": "MountingHole_3.2mm_M3",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      165.0,
+      15.0
+    ],
+    "mpn": "MECHANICAL",
+    "types": {}
+  },
+  {
+    "ref": "H3",
+    "value": "MountingHole_3.2mm_M3",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      69.0,
+      105.0
+    ],
+    "mpn": "MECHANICAL",
+    "types": {}
+  },
+  {
+    "ref": "H4",
+    "value": "MountingHole_3.2mm_M3",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      165.0,
+      105.0
+    ],
+    "mpn": "MECHANICAL",
+    "types": {}
+  }
+]

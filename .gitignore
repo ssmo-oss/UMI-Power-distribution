@@ -1,0 +1,11 @@
+# Machine-local state and generated caches
+__pycache__/
+*.py[cod]
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+.DS_Store
+Thumbs.db
+.venv/
+node_modules/

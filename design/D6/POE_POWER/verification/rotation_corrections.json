@@ -1,0 +1,248 @@
+[
+  {
+    "reference": "U1",
+    "source_footprint": "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.4x3.7mm",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "Q1",
+    "source_footprint": "UMI_D2:BSC072N08NS5_TDSON_8",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "Q2",
+    "source_footprint": "UMI_D2:BSC072N08NS5_TDSON_8",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "Q3",
+    "source_footprint": "UMI_D2:BSC072N08NS5_TDSON_8",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C1",
+    "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C2",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C3",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C4",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C5",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C6",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C7",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C8",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C9",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C11",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C13",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C14",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C15",
+    "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C16",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C17",
+    "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C19",
+    "source_footprint": "UMI_D2:Panasonic_FK_G_10x10.2",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C20",
+    "source_footprint": "UMI_D2:Panasonic_FK_G_10x10.2",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R1",
+    "source_footprint": "Resistor_SMD:R_2010_5025Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R2",
+    "source_footprint": "UMI_D2:EverOhms_MA2512_2to5mOhm",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0,
+    "proof": "D4 manufacturer canonical numbered pad centers and sizes transformed R270"
+  },
+  {
+    "reference": "R3",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R4",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R5",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R8",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R10",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R11",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R12",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R13",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R14",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 90,
+    "normalized_CCW_rotation_deg": 270,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R16",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R17",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 270,
+    "normalized_CCW_rotation_deg": 90,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R18",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  }
+]

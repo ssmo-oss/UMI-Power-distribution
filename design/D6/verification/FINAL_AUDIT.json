@@ -1,0 +1,73 @@
+{
+  "MAIN_POWER": {
+    "stackup_copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "native_checks": "pass",
+    "copper_segment_changes": [],
+    "via_treatment_readback": "pass",
+    "duplicate_UUIDs": 0,
+    "source_hashes_current": true
+  },
+  "POE_POWER": {
+    "stackup_copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "native_checks": "pass",
+    "copper_segment_changes": [
+      {
+        "uuid": "0c645818-f5a9-5e87-a43d-9e56af2f5d5a",
+        "old_width": "0.15",
+        "new_width": "0.16"
+      },
+      {
+        "uuid": "22074ed1-6b73-5cd2-9191-b1db6a8ebc19",
+        "old_width": "0.15",
+        "new_width": "0.16"
+      },
+      {
+        "uuid": "51a47d79-bbdd-5911-a3d1-e048d4743c5b",
+        "old_width": "0.15",
+        "new_width": "0.16"
+      },
+      {
+        "uuid": "9f1c1d1e-936a-5a13-bfc1-bc40fa8d99e8",
+        "old_width": "0.15",
+        "new_width": "0.16"
+      },
+      {
+        "uuid": "f44760e2-b3fa-52e7-829c-a458bb7487d9",
+        "old_width": "0.15",
+        "new_width": "0.16"
+      }
+    ],
+    "via_treatment_readback": "pass",
+    "duplicate_UUIDs": 0,
+    "source_hashes_current": true
+  },
+  "USB_POWER": {
+    "stackup_copper_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "native_checks": "pass",
+    "copper_segment_changes": [],
+    "via_treatment_readback": "pass",
+    "duplicate_UUIDs": 0,
+    "source_hashes_current": true
+  },
+  "procurement": {
+    "rows": 70,
+    "installed_per_set": 131,
+    "planned_buy_quantities_within_observed_stock": true,
+    "stock_reserved": false
+  }
+}

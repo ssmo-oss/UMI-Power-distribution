@@ -1,0 +1,490 @@
+{
+  "source": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\POE_POWER\\POE_POWER.kicad_pcb",
+  "source_sha256": "e85bacfdb8fe29c9a44298a935f7061b7c228fbfd8944142202f4d173b926b8d",
+  "source_unchanged": true,
+  "label_count": 60,
+  "labels": [
+    {
+      "reference": "Q3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C5",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "R20",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R17",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "Q1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R8",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5225
+    },
+    {
+      "reference": "C13",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "U2",
+      "local_label_center_mm": [
+        -0.19999999999999996,
+        -0.19999999999999996
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "F6",
+      "local_label_center_mm": [
+        6.3999999999999995,
+        -3.0700000000000003
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C9",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.51
+    },
+    {
+      "reference": "R24",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "C20",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "D3",
+      "local_label_center_mm": [
+        -0.6800000000000002,
+        -3.4699999999999998
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "C14",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5225
+    },
+    {
+      "reference": "C19",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R4",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5225
+    },
+    {
+      "reference": "D2",
+      "local_label_center_mm": [
+        3.25,
+        0.0
+      ],
+      "font_mm": 1.0
+    },
+    {
+      "reference": "D4",
+      "local_label_center_mm": [
+        0.0,
+        -4.48
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H3",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "C16",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "J6",
+      "local_label_center_mm": [
+        3.9599999999999995,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R14",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C8",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "C18",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R19",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C15",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.37692307692307686
+    },
+    {
+      "reference": "C22",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C6",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "Q2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R25",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R11",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R16",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5653846153846154
+    },
+    {
+      "reference": "U1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C11",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C17",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C23",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R18",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R12",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "H1",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "H4",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "R13",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R5",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5225
+    },
+    {
+      "reference": "C4",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "J1",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R10",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R21",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C10",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "C7",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.0461538461538462
+    },
+    {
+      "reference": "L2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R23",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "R22",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.41025641025641024
+    },
+    {
+      "reference": "L1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H2",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "C21",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.5128205128205128
+    }
+  ],
+  "detail_box_mm": null,
+  "scope": "Reference-only assembly visualization; disposable copy is not a manufacturing board"
+}

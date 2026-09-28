@@ -1,0 +1,314 @@
+{
+  "source": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\USB_POWER\\USB_POWER.kicad_pcb",
+  "source_sha256": "63241cd11a4b7b8ae08dc7613a32087cb6d852097224a8898f84db6a12aef8f9",
+  "source_unchanged": true,
+  "label_count": 38,
+  "labels": [
+    {
+      "reference": "R7",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "C14",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8205128205128205
+    },
+    {
+      "reference": "C6",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "U6",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "H1",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "J2",
+      "local_label_center_mm": [
+        3.5,
+        11.69
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H4",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "C10",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8205128205128205
+    },
+    {
+      "reference": "C13",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8205128205128205
+    },
+    {
+      "reference": "Q1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "C7",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "R1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "C12",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R6",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "J1",
+      "local_label_center_mm": [
+        1.98,
+        3.4799999999999995
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "U1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "C4",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4
+    },
+    {
+      "reference": "R2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "R8",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "C9",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "U3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "R5",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "C1",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "R3",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "C2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "J3",
+      "local_label_center_mm": [
+        3.5,
+        11.69
+      ],
+      "font_mm": 1.1
+    },
+    {
+      "reference": "H2",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "D1",
+      "local_label_center_mm": [
+        0.0,
+        -1.98
+      ],
+      "font_mm": 0.9
+    },
+    {
+      "reference": "C5",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4
+    },
+    {
+      "reference": "C8",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4
+    },
+    {
+      "reference": "U5",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "R4",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "U4",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "R9",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4125
+    },
+    {
+      "reference": "H3",
+      "local_label_center_mm": [
+        0.0,
+        -3.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "U2",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.8
+    },
+    {
+      "reference": "C11",
+      "local_label_center_mm": [
+        0.0,
+        0.0
+      ],
+      "font_mm": 0.4
+    }
+  ],
+  "detail_box_mm": null,
+  "scope": "Reference-only assembly visualization; disposable copy is not a manufacturing board"
+}

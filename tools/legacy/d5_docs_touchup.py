@@ -1,0 +1,5 @@
+from pathlib import Path
+for name in ['ENGINEERING_AND_TEST_NOTES.md','MANUFACTURING_SPECIFICATION.md','MANUAL_ASSEMBLY.md']:
+ p=Path('outputs/UMI_D5')/name;s=p.read_text(encoding='utf8').replace('## The two boards','## The three boards').replace('thinner main board','thinner MAIN and POE boards')
+ for a,b in [('passive12V','passive 12 V'),('protected53.5V','protected 53.5 V'),('fused12V','fused 12 V'),('assumed90%','assumed 90%'),('are60W','are 60 W'),('and33.9759W','and 33.9759 W'),('requires77.8987W','requires 77.8987 W'),('provisional4A','provisional 4 A'),('totals143.6559W','totals 143.6559 W'),('at12V','at 12 V'),('Retain20A','Retain 20 A'),('the12V','the 12 V'),('ten MAIN_POWER','ten MAIN_POWER'),('remains1.2mm','remains 1.2 mm'),('at40','at 40'),('pin1','pin 1'),('pin2','pin 2'),('pin3','pin 3'),('positions1','positions 1'),('and3','and 3'),('position2','position 2'),('this is70','this is 70'),('70two-position','70 two-position'),('10three-position','10 three-position'),('160contacts','160 contacts'),('ten sets must','ten sets must')]:s=s.replace(a,b)
+ p.write_text(s,encoding='utf8')

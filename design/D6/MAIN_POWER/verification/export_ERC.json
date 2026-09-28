@@ -1,0 +1,28 @@
+{
+  "command": [
+    "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe",
+    "sch",
+    "erc",
+    "--format",
+    "json",
+    "--severity-all",
+    "--exit-code-violations",
+    "--output",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\MAIN_POWER\\verification\\ERC.json",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_D6\\MAIN_POWER\\MAIN_POWER.kicad_sch"
+  ],
+  "process_error_mode_hex": "0x8003",
+  "creation_flags": "CREATE_NO_WINDOW",
+  "timeout_seconds": 60,
+  "environment_overrides": {
+    "TEMP": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\temp",
+    "TMP": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\temp",
+    "KICAD_CONFIG_HOME": "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\work\\validation_cli_env\\config"
+  },
+  "exit_code": 0,
+  "exit_code_hex": "0x0",
+  "stdout": "Found 0 violations\nSaved ERC Report to C:/Users/Sandi/Documents/Codex/2026-09-25/change-apperance-to-dark/outputs/UMI_D6/MAIN_POWER/verification/ERC.json\n",
+  "stderr": "",
+  "timed_out": false,
+  "elapsed_seconds": 0.437
+}

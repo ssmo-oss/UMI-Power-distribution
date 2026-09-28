@@ -1,0 +1,93 @@
+{
+  "status": "partial_verified_connectors_fuses_pending",
+  "manufacturer_source": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+  "manual_connector_parts": [
+    {
+      "mpn": "VHR-2N",
+      "manufacturer": "JST",
+      "quantity": 5,
+      "verified": true
+    },
+    {
+      "mpn": "VHR-3N",
+      "manufacturer": "JST",
+      "quantity": 1,
+      "verified": true
+    },
+    {
+      "mpn": "SVH-41T-P1.1",
+      "manufacturer": "JST",
+      "quantity": 12,
+      "quantity_condition": "All12populatedwiresmatchAWG20-16andinsulationOD1.7-3.0mm",
+      "verified": true,
+      "awg_range": [
+        20,
+        16
+      ],
+      "conductor_mm2_range": [
+        0.5,
+        1.25
+      ],
+      "insulation_od_mm_range": [
+        1.7,
+        3.0
+      ]
+    },
+    {
+      "mpn": "SVH-21T-P1.1",
+      "manufacturer": "JST",
+      "quantity": null,
+      "quantity_condition": "AlternativeforsmallerAWG22-18wires;replacecorrespondingcontacts",
+      "verified": true,
+      "awg_range": [
+        22,
+        18
+      ]
+    }
+  ],
+  "fuses": [
+    {
+      "references": [
+        "F1",
+        "F2"
+      ],
+      "nominal_A": 7.5,
+      "released_mpn": null
+    },
+    {
+      "references": [
+        "F3"
+      ],
+      "nominal_A": 1,
+      "released_mpn": null
+    },
+    {
+      "references": [
+        "F4"
+      ],
+      "nominal_A": 5,
+      "released_mpn": null
+    },
+    {
+      "references": [
+        "F5"
+      ],
+      "nominal_A": 10,
+      "released_mpn": null
+    },
+    {
+      "references": [
+        "F6"
+      ],
+      "nominal_A": 3,
+      "minimum_VDC": 80,
+      "candidate_mpn": "166.7000.4302",
+      "released_mpn": null,
+      "verified": false
+    }
+  ],
+  "holder_mpn": "178.6165.0001",
+  "holder_quantity": 6,
+  "fuse_curve_40C_verified": false,
+  "fuse_mechanical_fit_verified": false
+}

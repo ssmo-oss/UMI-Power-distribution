@@ -1,0 +1,23 @@
+[
+  {
+    "reference": "C1",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "C3",
+    "source_footprint": "Capacitor_SMD:C_1210_3225Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  },
+  {
+    "reference": "R1",
+    "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+    "baked_angle_clockwise_board_view_deg": 180,
+    "normalized_CCW_rotation_deg": 180,
+    "max_pad_position_error_mm": 0.0
+  }
+]

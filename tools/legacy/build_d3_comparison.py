@@ -1,0 +1,10 @@
+from pathlib import Path
+import shutil
+root=Path('outputs/UMI_D3');root.mkdir(exist_ok=True);review=root/'comparison';review.mkdir(exist_ok=True)
+for name in ['MAIN_POWER','USB_POWER']:
+ shutil.copy2(Path('outputs/UMI_TWO_BOARD_DESIGN')/name/'review'/(name+'_gerber_top.png'),review/(name+'_D2.png'))
+html='''<!doctype html><html><head><meta charset="utf-8"><title>UMI D3 board review</title><style>body{margin:0;background:#eef1ee;color:#1b2922;font:16px system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:40px}h1{font-size:38px;margin:0 0 8px}p{color:#526357;line-height:1.6}.row{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:white;border:1px solid #d1dbd4;border-radius:12px;padding:16px}.card img{width:100%;display:block}h2{margin-top:42px}h3{font-size:16px;margin:0 0 12px}a{color:#16653d}summary{padding:16px;cursor:pointer}@media(max-width:850px){.row{grid-template-columns:1fr}main{padding:20px}}</style></head><body><main><h1>UMI / D3 layout review</h1><p>Before and after, rendered from actual manufacturing layers. These views show copper, mask and legend; they are not photographs of assembled boards.</p>'''
+for name,label in [('MAIN_POWER','Main power board'),('USB_POWER','USB power board')]:
+ html+=f'<h2>{label}</h2><div class="row"><div class="card"><h3>D2 — previous</h3><img src="comparison/{name}_D2.png"></div><div class="card"><h3>D3 — revised</h3><img src="{name}/review/{name}_gerber_top.png"></div></div><details><summary>View revised back side</summary><div class="card"><img src="{name}/review/{name}_gerber_bottom.png"></div></details><p><a href="{name}/review/{name}_layers.pdf">Copper and assembly layer drawings</a> · <a href="{name}/verification/DRC.json">Layout-check report</a></p>'
+html+='<p>Read README.md and the manufacturing specification before ordering. Supplier assembly preview and physical prototype qualification remain necessary.</p></main></body></html>'
+(root/'LAYOUT_REVIEW.html').write_text(html,encoding='utf-8')

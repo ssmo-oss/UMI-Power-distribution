@@ -1,0 +1,95 @@
+{
+  "MAIN_POWER": {
+    "source_sha256": "80d8bd5bdd6d9e96bbac56d41d675d5c0e80523ba0791100031d8f7a1d5eb122",
+    "bare": {
+      "solids": 1,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -1e-07,
+        -1e-07,
+        68.0000001,
+        100.2639621,
+        1.2000001
+      ],
+      "bytes": 576831
+    },
+    "simplified": {
+      "solids": 17,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -1e-07,
+        -1e-07,
+        68.0000001,
+        100.2639621,
+        21.2000001
+      ],
+      "bytes": 850618
+    },
+    "electrical_components_represented": 11,
+    "source_unchanged": true
+  },
+  "POE_POWER": {
+    "source_sha256": "e85bacfdb8fe29c9a44298a935f7061b7c228fbfd8944142202f4d173b926b8d",
+    "bare": {
+      "solids": 1,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -1e-07,
+        -1e-07,
+        106.0000001,
+        100.0000001,
+        1.2000001
+      ],
+      "bytes": 191018
+    },
+    "simplified": {
+      "solids": 58,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -1e-07,
+        -1e-07,
+        106.0000001,
+        100.0000001,
+        19.2000001
+      ],
+      "bytes": 1162728
+    },
+    "electrical_components_represented": 56,
+    "source_unchanged": true
+  },
+  "USB_POWER": {
+    "source_sha256": "63241cd11a4b7b8ae08dc7613a32087cb6d852097224a8898f84db6a12aef8f9",
+    "bare": {
+      "solids": 1,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -1e-07,
+        -1e-07,
+        80.0000001,
+        50.0000001,
+        1.6000001000000001
+      ],
+      "bytes": 166592
+    },
+    "simplified": {
+      "solids": 35,
+      "valid_after_reimport": true,
+      "bounds_mm": [
+        -1e-07,
+        -0.0100001,
+        -1e-07,
+        80.0000001,
+        50.0000001,
+        11.600000099999999
+      ],
+      "bytes": 736094
+    },
+    "electrical_components_represented": 34,
+    "source_unchanged": true
+  }
+}

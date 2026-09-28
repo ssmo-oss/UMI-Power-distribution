@@ -1,0 +1,42 @@
+{
+  "basis": {
+    "input_V": 12,
+    "converter_efficiency_assumption": 0.9,
+    "ambient_C": 40,
+    "poe_gmsl_mutually_exclusive": true,
+    "gmsl_A_provisional": 4,
+    "gmsl_3A_manufacturer_verified": false
+  },
+  "power_W": {
+    "usb_input": 33.97590361445783,
+    "poe_input_nominal": 77.89865947777777,
+    "poe_input_upper_static": 78.83162692222221,
+    "poe_configuration_nominal": 173.55456309223558,
+    "poe_configuration_upper_static": 174.48753053668003,
+    "gmsl_configuration_4A": 143.65590361445783,
+    "gmsl_configuration_3A_if_confirmed": 131.65590361445783
+  },
+  "input_A_at_12V": {
+    "poe_nominal": 14.4628802576863,
+    "poe_upper_static": 14.540627544723336,
+    "gmsl_4A": 11.97132530120482,
+    "gmsl_3A": 10.97132530120482
+  },
+  "fuses_recommendation": {
+    "MAIN_F1_Jetson": "retain7.5A provisional;5Acontinuous not5Afuse",
+    "MAIN_F2_GMSL": "retain7.5A pending actual camera/current verification",
+    "MAIN_F3_fan": "retain1A",
+    "MAIN_F4_USB": "retain5A",
+    "MAIN_F5_PoE_feed": "retain10A atsource toprotectcable; no duplicatePOEinputfuse needed",
+    "POE_F6_output": "retain3A80V unless separate protection coordination validates removal"
+  },
+  "input_minimum_V": "not specified; no10.8Vguarantee",
+  "tests_required": [
+    "Jetsonstartup/currentprofile",
+    "GMSLcameraaggregateandconnectorrating",
+    "USBsimultaneousload",
+    "PoEcablestartup/drop",
+    "eFuseoutputshortresponse",
+    "40Cenclosurethermal"
+  ]
+}

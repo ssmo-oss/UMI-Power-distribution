@@ -1,0 +1,46 @@
+{
+  "R1": {
+    "recommendation": "Adopt C4169838 for prototype; retain same measured-waveform and thermal validation as original; no claim of proven pulse equivalence",
+    "mpn": "RC2010JK-077R5L",
+    "jlc": "C4169838",
+    "stock": 220,
+    "order_quantity_field": 220,
+    "value_ohm": 7.5,
+    "tolerance_percent": 5,
+    "power_W": 0.75,
+    "package": "2010",
+    "changes_to_PCB": "none proposed",
+    "original_lifecycle": "Panasonic primary page NRFND"
+  },
+  "snubber": {
+    "C1_F": 4.7e-10,
+    "C1_nets": [
+      "SW",
+      "SNUB"
+    ],
+    "R1_nets": [
+      "SNUB",
+      "BOOST_OUT"
+    ],
+    "fsw_Hz": 223880.59701492538,
+    "RC_s": 3.525e-09,
+    "nominal_P_W": 0.30138158335532406,
+    "upper_static_P_W": 0.3086439163514539,
+    "nominal_energy_per_edge_J": 6.730855361602237e-07,
+    "ideal_step_peak_W": 381.89250278594255,
+    "qualification": "estimate excludes switching rise time/parasitics/ringing; average rating does not alone prove pulse endurance",
+    "illustrative_Cplus5percent_fplus10percent_P_W": 0.35648372338592926
+  },
+  "C1": {
+    "recommendation": "retain existing KEMET C0805C471J1GACTU pending reservation/attrition confirmation",
+    "stock_previous_snapshot": 15,
+    "needed": 10,
+    "reason": "No proven higher-stock same-tolerance alternative established; 50V substitutes rejected;10/20% tolerance alternatives not adopted"
+  },
+  "L1": {
+    "recommendation": "retain Coilcraft SER2915H-103KL",
+    "stock_previous_snapshot": 17,
+    "needed": 10,
+    "reason": "Ten plus some margin possible; reserve/fixture approval required. Different magnetic introduces DCR/saturation/loss/geometry risk."
+  }
+}

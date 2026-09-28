@@ -1,0 +1,183 @@
+[
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "Q1",
+      "Q2",
+      "Q3"
+    ],
+    "old_mpn": "BSC072N08NS5ATMA1",
+    "mpn": "BSC040N08NS5",
+    "manufacturer": "Infineon Technologies",
+    "jlc_code": "C534333",
+    "current_stock": 6718,
+    "note": "Same80Vpinout; driverchargebudget reviewed; prototype ringing/thermal test required",
+    "value": "BSC040N08NS5"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "L2"
+    ],
+    "old_mpn": "XAL4020-102MEB",
+    "mpn": "XAL4020-102MEC",
+    "manufacturer": "Coilcraft",
+    "jlc_code": "C4555951",
+    "current_stock": 9145,
+    "note": "Manufacturer packaging suffix change"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "D2"
+    ],
+    "old_mpn": "MBR1H100SFT3G",
+    "mpn": "NRVB1H100SFT3G",
+    "manufacturer": "onsemi",
+    "jlc_code": "C604266",
+    "current_stock": 211,
+    "note": "Same family/pinout; automotivequalified variant"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "R2"
+    ],
+    "old_mpn": "ERJ-M1WSF4M0U",
+    "mpn": "MA251230FR004MZ",
+    "manufacturer": "Ever Ohms Tech",
+    "jlc_code": "C252682",
+    "current_stock": 2724,
+    "note": "4mOhm1%; new manufacturer-recommended land required",
+    "value": "4m 1%"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "C1"
+    ],
+    "old_mpn": "GRM2165C2A471JA01D",
+    "mpn": "C0805C471J1GACTU",
+    "manufacturer": "KEMET",
+    "jlc_code": "C23481145",
+    "current_stock": 15,
+    "note": "Same470pF100VC0G5%0805; limitedstock15 for10boards"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "C14"
+    ],
+    "old_mpn": "GRM188R71E473KA01D",
+    "mpn": "CC0603KRX7R9BB473",
+    "manufacturer": "Yageo",
+    "jlc_code": "C107093",
+    "current_stock": 1574400,
+    "note": "Same47nFX7R10%0603; higher50Vrating",
+    "value": "47nF 50V"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "C18"
+    ],
+    "old_mpn": "GRM188R71H153KA01D",
+    "mpn": "CC0603KRX7R9BB153",
+    "manufacturer": "Yageo",
+    "jlc_code": "C107076",
+    "current_stock": 403038,
+    "note": "Same15nF50VX7R10%0603"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "R11"
+    ],
+    "old_mpn": "CRCW06033R30JNEA",
+    "mpn": "RC0603FR-073R3L",
+    "manufacturer": "Yageo",
+    "jlc_code": "C137725",
+    "current_stock": 159032,
+    "note": "Same3.3ohm0603100mW; toleranceimproved1%",
+    "value": "3.3 1%"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "R13"
+    ],
+    "old_mpn": "CRCW06038K45FKEA",
+    "mpn": "RC0603FR-078K45L",
+    "manufacturer": "Yageo",
+    "jlc_code": "C163417",
+    "current_stock": 529,
+    "note": "Same8.45k1%0603100mW"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "R19"
+    ],
+    "old_mpn": "RT0603BRD0784K5L",
+    "mpn": "ERA-3AEB8452V",
+    "manufacturer": "Panasonic",
+    "jlc_code": "C4295220",
+    "current_stock": 694,
+    "note": "Same84.5k0.1%25ppm0603"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5",
+      "F6"
+    ],
+    "old_mpn": "178.6165.0001",
+    "mpn": "178.6165.0002",
+    "manufacturer": "Littelfuse",
+    "jlc_code": "C207061",
+    "current_stock": 617,
+    "note": "Packagingonly100vs500pack; same80Vholdergeometry"
+  },
+  {
+    "board": "USB_POWER",
+    "refs": [
+      "C1",
+      "C2"
+    ],
+    "old_mpn": "CNA6P1X7R1H106K",
+    "mpn": "CNA6P1X7R1H106KT000A",
+    "manufacturer": "TDK",
+    "jlc_code": "C694544",
+    "current_stock": 1024,
+    "note": "Complete manufacturer orderable suffix; same electrical part"
+  },
+  {
+    "board": "MAIN_POWER",
+    "refs": [
+      "R20"
+    ],
+    "old_mpn": "RT0603BRD07931RL",
+    "mpn": "RT0603BRD07953RL",
+    "manufacturer": "Yageo",
+    "jlc_code": "C861604",
+    "current_stock": 903,
+    "value": "953 0.1%",
+    "note": "Explicit value revision931to953ohm; nominal53.518163V static52.879495-54.159133V, excluding ripple/transients"
+  },
+  {
+    "board": "USB_POWER",
+    "refs": [
+      "R8"
+    ],
+    "old_mpn": "RC0603FR-0715K8L",
+    "mpn": "ERJ-3EKF1582V",
+    "manufacturer": "Panasonic",
+    "jlc_code": "C403003",
+    "current_stock": 4503,
+    "note": "Same15.8k1%100ppm100mW0603; exactmanufacturerverified; JLCnormalizedERJ3EKF1582V in-stock."
+  }
+]

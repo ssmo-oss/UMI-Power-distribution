@@ -1,0 +1,20 @@
+# D6 electrical sourcing resolution
+
+No PCB changes made. The concrete R1 candidate is **Yageo RC2010JK-077R5L, JLC C4169838**, live220 stock and220 available-order field. It matches7.5Ω±5%,0.75W,2010 general-purpose thick film. Panasonic original ERJ12ZYJ7R5U is explicitly NRFND on its primary product page and is also general purpose, not a special pulse family. Alternative1% YageoRC2010FK-077R5L C877612 has37stock/20order-field, offering less headroom.
+
+Recommendation: adopt C4169838 for the prototype with unchanged footprint and retain the same measured-waveform/thermal validation required by the original design. **Equal/better published repetitive-pulse endurance has not been established**, so this report does not assert that procurement alone qualifies its snubber use. This is a documentary limitation, not a claim that the candidate is known to fail. Do not describe it as a proven pulse-rated drop-in.
+
+Circuit: C1=470pF100V,SW–SNUB;R1=7.5Ω,SNUB–BOOST_OUT. RT40.2kΩ gives223.88kHz from TI equation. Ideal full-swing average P=C·V²·f=0.3014W at53.518V,0.3086W at54.159V, below0.75W. Adding5% capacitance and10% frequency as an illustrative bound gives~0.356W (frequency bound illustrative, not a claimed datasheet limit). RC=3.525ns; ideal instantaneous step peaks~382W and7.14A, with~0.673µJ per edge. Real rise time/parasitics modify the pulse. Published general-purpose continuous-power or seconds-long overload ratings cannot alone validate nanosecond repetitive peaks; matching ringing, resistor temperature and pulse endurance remains the same engineering test obligation as the original untested design.
+
+C1: retain existing KEMET470pF100VC0G5%0805 with fifteen previously observed pieces for ten boards, subject to actual reservation and attrition. Search foundC599927 KEMET470pF100V but10% tolerance and other50V entries; no fully verified better-stock exact-electrical alternative was established. Do not adopt50V for the53.5V snubber.
+
+L1: retain CoilcraftSER2915H-103KL,17 previously observed stock/16order-field. It covers ten before reservation and agreed attrition. No alternate magnetics are recommended merely to increase stock margin: saturation,DCR,AC loss and fit affect the conversion stage. Fixture acceptance remains required. Exact part preorder/restock is the least electrical-risk solution if stock cannot be reserved.
+
+Sources: [Panasonic original](https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ12ZYJ7R5U), [JLC candidate](https://jlcpcb.com/partdetail/YAGEO-RC2010JK077R5L/C4169838), [JLC1% option](https://jlcpcb.com/partdetail/YAGEO-RC2010FK077R5L/C877612), [manufacturer RC family document mirrored by LCSC](https://datasheet.lcsc.com/lcsc/YAGEO-RC2010JK-070RL_C152156.pdf), [TI LM5122](https://www.ti.com/lit/ds/symlink/lm5122.pdf), [Coilcraft L1](https://www.coilcraft.com/en-us/products/power/shielded-inductors/high-current-flat-wire/ser/ser29xx/ser2915h-103/).
+
+
+## Published rating comparison and geometry
+
+Yageo RC2010 family specifies0.75W at70°C,derating to zero at155°C;body5.0×2.5mm, same2010land class. Family maximum working-voltage ceiling is200V and maximum overload-voltage ceiling500V, but rated working voltage must also satisfy sqrt(P·R), only~2.372V RMS at7.5Ω/0.75W. These ceiling numbers are not permission for sustained200V or500V across this low resistance. Short-time overload tests likewise do not establish the repeated snubber-pulse envelope. Original Panasonic2010 body/power/tolerance matches and has a wider asymmetric TCR(-100/+600ppm/K) than the candidate±200ppm/K. No claim of improved pulse handling is made.
+
+The cap+frequency illustration is0.308643916×1.05×1.10=0.35648W,about47.5% of0.75W. The extra10% frequency is an engineering allowance, not a verified oscillator maximum. Additional ringing or higher actualfrequency may increase loss; measure at operating corners. Temperature at the resistor can exceed40°Cambient due to nearby power components.

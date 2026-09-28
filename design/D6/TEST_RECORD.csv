@@ -1,0 +1,13 @@
+﻿Test ID,Board,Measurement,Acceptance basis,Status,Measured result,Instrument/setup,Operator/date
+T01,All,"Unpowered identity, polarity and shorts",Exact BOM and assembly drawing match; all output polarities match pin schedule; investigate any unexpected low resistance,NOT PERFORMED,,,
+T02,USB,No-load output voltage at 12 V input,5.012–5.181 V static regulator calculation before transient effects; record each connector voltage,NOT PERFORMED,,,
+T03,USB,Independent and simultaneous 0–3 A port loads,Both ports sustain intended load without oscillation or unintended shutdown; record cable-end drop and temperatures,NOT PERFORMED,,,
+T04,USB,"Startup, hot-plug, load release and load steps",Record min/max port voltage and settling; compare against actual device limits before connection; initial source ceiling target5.25 V,NOT PERFORMED,,,
+T05,POE,No-load and 0–1.31 A output sweep,Nominal53.518 V; static calculation52.879–54.159 V; record ripple/regulation/efficiency; verify switch input range separately,NOT PERFORMED,,,
+T06,POE,R1 snubber waveform and temperature,Measure switching waveform and calculate actual pulse energy/RMS power; confirm resistor manufacturer repetitive-pulse suitability and thermal margin,NOT PERFORMED,,,
+T07,POE,Startup into switch-equivalent capacitance,"No sustained oscillation, unintended current-limit latch or overshoot beyond actual switch permitted input",NOT PERFORMED,,,
+T08,POE,Controlled overload and fault shutdown,Record eFuse IN/OUT and gate/switch-node excursions; remain within device absolute maxima; confirm latch/reset; use protected fixture,NOT PERFORMED,,,
+T09,MAIN,Loaded voltage drop and contact heating,"Record each branch and input path at intended configuration loads, then evaluate20 A design margin with suitable loads; protect weakest cable",NOT PERFORMED,,,
+T10,System,40 °C enclosure soak,Record steady temperatures and estimate junctions within recommended operating limits; USB regulator recommended maximum125 °C junction,NOT PERFORMED,,,
+T11,System,"Actual Jetson, GMSL/PoE and USB device boot/load",Test two mutually exclusive configurations separately; measure inrush and confirm fuse/harness suitability and USB charging behaviour,NOT PERFORMED,,,
+T12,System,Installation and EMC/ESD checks,Verify actual cable lengths/gauges/device plugs/input protection and final enclosure; no compliance claim without applicable tests,NOT PERFORMED,,,

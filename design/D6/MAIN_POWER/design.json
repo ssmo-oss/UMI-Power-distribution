@@ -1,0 +1,296 @@
+[
+  {
+    "ref": "J1",
+    "value": "12V PSU INPUT",
+    "fp": "UMI_D2:Phoenix_1709681",
+    "pins": {
+      "1": [
+        "+12V",
+        "12V_IN"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      33.84,
+      21
+    ],
+    "mpn": "1709681",
+    "types": {},
+    "source_fp": "UMI_Custom:Phoenix_1709681"
+  },
+  {
+    "ref": "F1",
+    "value": "7.5A FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "JETSON_12V"
+      ]
+    },
+    "pos": [
+      17,
+      46
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J2",
+    "value": "JETSON 12V 5A",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "JETSON_12V"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      21,
+      56
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "F2",
+    "value": "7.5A FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "SG4A_12V"
+      ]
+    },
+    "pos": [
+      50,
+      46
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J3",
+    "value": "GMSL 12V / EXCLUSIVE WITH POE",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "SG4A_12V"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      54,
+      56
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "F3",
+    "value": "1A FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "FAN_12V"
+      ]
+    },
+    "pos": [
+      17,
+      67
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J4",
+    "value": "FAN 12V 0.14A",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "FAN_12V"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      21,
+      77
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "F4",
+    "value": "5A FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "USB_12V"
+      ]
+    },
+    "pos": [
+      50,
+      67
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J5",
+    "value": "USB BOARD 12V",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "USB_12V"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      54,
+      77
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "F5",
+    "value": "10A POE CABLE FUSE HOLDER",
+    "fp": "UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165",
+    "pins": {
+      "1": [
+        "1",
+        "12V_IN"
+      ],
+      "2": [
+        "2",
+        "FUSED_BOOST_12V"
+      ]
+    },
+    "pos": [
+      37.6,
+      88
+    ],
+    "mpn": "178.6165.0002",
+    "types": {},
+    "source_fp": "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+  },
+  {
+    "ref": "J6",
+    "value": "POE BOARD 12V INPUT",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "+12V",
+        "FUSED_BOOST_12V"
+      ],
+      "2": [
+        "RETURN",
+        "GND"
+      ]
+    },
+    "pos": [
+      42.02,
+      98
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "H1",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_4.5mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      18.0,
+      102.263962
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {}
+  },
+  {
+    "ref": "H2",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_4.5mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      18.0,
+      18.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {}
+  },
+  {
+    "ref": "H3",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_4.5mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      70.0,
+      102.263962
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {}
+  },
+  {
+    "ref": "H4",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_4.5mm",
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      70.0,
+      18.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {}
+  }
+]

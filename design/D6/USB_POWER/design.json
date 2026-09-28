@@ -1,0 +1,1065 @@
+[
+  {
+    "ref": "J1",
+    "value": "12V INPUT",
+    "fp": "UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical",
+    "pins": {
+      "1": [
+        "VIN",
+        "12V_IN"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ]
+    },
+    "pos": [
+      20.0,
+      18.0
+    ],
+    "mpn": "B2P-VH(LF)(SN)",
+    "types": {},
+    "source_fp": "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+  },
+  {
+    "ref": "Q1",
+    "value": "AO4407A",
+    "fp": "UMI_D2:SOIC-8_3.9x4.9mm_P1.27mm",
+    "pins": {
+      "1": [
+        "S",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "S",
+        "12V_PROTECTED"
+      ],
+      "3": [
+        "S",
+        "12V_PROTECTED"
+      ],
+      "4": [
+        "G",
+        "RP_GATE"
+      ],
+      "5": [
+        "D",
+        "12V_IN"
+      ],
+      "6": [
+        "D",
+        "12V_IN"
+      ],
+      "7": [
+        "D",
+        "12V_IN"
+      ],
+      "8": [
+        "D",
+        "12V_IN"
+      ]
+    },
+    "pos": [
+      32.0,
+      17.0
+    ],
+    "mpn": "AO4407A",
+    "types": {
+      "4": "input"
+    },
+    "source_fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+  },
+  {
+    "ref": "R6",
+    "value": "100k",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "RP_GATE"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      37.0,
+      23.0
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "D1",
+    "value": "12V gate clamp",
+    "fp": "UMI_D2:D_SOD-123",
+    "pins": {
+      "1": [
+        "K",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "A",
+        "RP_GATE"
+      ]
+    },
+    "pos": [
+      32.0,
+      23.0
+    ],
+    "mpn": "BZT52C12-7-F",
+    "types": {},
+    "source_fp": "Diode_SMD:D_SOD-123"
+  },
+  {
+    "ref": "U1",
+    "value": "TPSM63610RDFR",
+    "fp": "UMI_D2:TI_RDF0022A_TPSM63610",
+    "pins": {
+      "1": [
+        "VIN1",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "RBOOT",
+        "BOOT"
+      ],
+      "3": [
+        "CBOOT",
+        "BOOT"
+      ],
+      "4": [
+        "SW",
+        null
+      ],
+      "5": [
+        "VLDOIN",
+        "5V_BUS"
+      ],
+      "6": [
+        "VCC",
+        "VCC"
+      ],
+      "7": [
+        "AGND",
+        "GND"
+      ],
+      "8": [
+        "FB",
+        "FB"
+      ],
+      "9": [
+        "VOUT1",
+        "5V_BUS"
+      ],
+      "10": [
+        "VOUT2",
+        "5V_BUS"
+      ],
+      "11": [
+        "AGND",
+        "GND"
+      ],
+      "12": [
+        "RT",
+        "RT"
+      ],
+      "13": [
+        "PG",
+        "PG"
+      ],
+      "14": [
+        "SPSP",
+        "GND"
+      ],
+      "15": [
+        "SYNC_MODE",
+        "VCC"
+      ],
+      "16": [
+        "NC",
+        null
+      ],
+      "17": [
+        "EN",
+        "12V_PROTECTED"
+      ],
+      "18": [
+        "VIN2",
+        "12V_PROTECTED"
+      ],
+      "19": [
+        "PGND",
+        "GND"
+      ],
+      "20": [
+        "PGND",
+        "GND"
+      ],
+      "21": [
+        "AGND",
+        "GND"
+      ],
+      "22": [
+        "AGND",
+        "GND"
+      ]
+    },
+    "pos": [
+      48.0,
+      25.0
+    ],
+    "mpn": "TPSM63610RDFR",
+    "types": {
+      "1": "power_in",
+      "18": "power_in",
+      "5": "power_in",
+      "6": "power_out",
+      "8": "input",
+      "9": "power_out",
+      "12": "input",
+      "13": "open_collector",
+      "14": "input",
+      "15": "input",
+      "17": "input"
+    },
+    "source_fp": "UMI_D2:TI_RDF0022A_TPSM63610"
+  },
+  {
+    "ref": "C1",
+    "value": "10uF 50V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      41.6,
+      21.75
+    ],
+    "mpn": "CNA6P1X7R1H106KT000A",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C2",
+    "value": "10uF 50V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric",
+    "pins": {
+      "1": [
+        "1",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      54.4,
+      21.75
+    ],
+    "mpn": "CNA6P1X7R1H106KT000A",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C3",
+    "value": "47uF 10V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      43.2,
+      31.5
+    ],
+    "mpn": "GRM32ER71A476ME15L",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C9",
+    "value": "47uF 10V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      48.0,
+      31.5
+    ],
+    "mpn": "GRM32ER71A476ME15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C10",
+    "value": "47uF 10V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      52.8,
+      31.5
+    ],
+    "mpn": "GRM32ER71A476ME15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "R1",
+    "value": "24.9k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric_R180",
+    "pins": {
+      "1": [
+        "1",
+        "FB"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      42.5,
+      27.5
+    ],
+    "mpn": "RT0603BRD0724K9L",
+    "types": {},
+    "rotation": 180,
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R7",
+    "value": "102k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "FB"
+      ]
+    },
+    "pos": [
+      42.5,
+      25.0
+    ],
+    "mpn": "RT0603BRD07102KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R8",
+    "value": "15.8k 1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "RT"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      54.0,
+      26.5
+    ],
+    "mpn": "ERJ-3EKF1582V",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R9",
+    "value": "100k",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "PG"
+      ]
+    },
+    "pos": [
+      54.0,
+      28.8
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "C11",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      39.2,
+      30.5
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C12",
+    "value": "47uF 25V bulk",
+    "fp": "UMI_D2:CP_Elec_6.3x5.8",
+    "pins": {
+      "1": [
+        "+",
+        "12V_PROTECTED"
+      ],
+      "2": [
+        "-",
+        "GND"
+      ]
+    },
+    "pos": [
+      72.0,
+      17.0
+    ],
+    "mpn": "EEE-FK1E470P",
+    "types": {},
+    "source_fp": "Capacitor_SMD:CP_Elec_6.3x5.8"
+  },
+  {
+    "ref": "U2",
+    "value": "TPS2557DRB",
+    "fp": "UMI_D2:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm",
+    "pins": {
+      "1": [
+        "GND",
+        "GND"
+      ],
+      "2": [
+        "IN",
+        "5V_BUS"
+      ],
+      "3": [
+        "IN",
+        "5V_BUS"
+      ],
+      "4": [
+        "EN",
+        "5V_BUS"
+      ],
+      "5": [
+        "ILIM",
+        "ILIM1"
+      ],
+      "6": [
+        "OUT",
+        "VBUS1"
+      ],
+      "7": [
+        "OUT",
+        "VBUS1"
+      ],
+      "8": [
+        "FAULT",
+        "FAULT1"
+      ],
+      "9": [
+        "EP",
+        "GND"
+      ]
+    },
+    "pos": [
+      28.0,
+      36.0
+    ],
+    "mpn": "TPS2557DRBR",
+    "types": {
+      "2": "power_in",
+      "3": "power_in",
+      "4": "input",
+      "6": "power_out",
+      "8": "open_collector"
+    },
+    "source_fp": "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
+  },
+  {
+    "ref": "R2",
+    "value": "32.4k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "ILIM1"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      33.0,
+      36.0
+    ],
+    "mpn": "RT0603BRD0732K4L",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R4",
+    "value": "100k",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "FAULT1"
+      ]
+    },
+    "pos": [
+      33.0,
+      32.0
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "C4",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      28.0,
+      32.0
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C6",
+    "value": "22uF 10V",
+    "fp": "UMI_D2:C_1206_3216Metric",
+    "pins": {
+      "1": [
+        "1",
+        "VBUS1"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      30.5,
+      43.5
+    ],
+    "mpn": "GRM31CR71A226KE15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "ref": "J2",
+    "value": "USB-A 3A",
+    "fp": "UMI_D2:USB_A_Wurth_614004190021",
+    "pins": {
+      "1": [
+        "VBUS",
+        "VBUS1"
+      ],
+      "2": [
+        "D-",
+        "DM1"
+      ],
+      "3": [
+        "D+",
+        "DP1"
+      ],
+      "4": [
+        "GND",
+        "GND"
+      ],
+      "SH": [
+        "SHIELD",
+        "GND"
+      ]
+    },
+    "pos": [
+      22.0,
+      47.0
+    ],
+    "mpn": "614004190021",
+    "types": {},
+    "source_fp": "UMI_D2:USB_A_Wurth_614004190021"
+  },
+  {
+    "ref": "U5",
+    "value": "USBLC6-2SC6",
+    "fp": "UMI_D2:SOT-23-6",
+    "pins": {
+      "1": [
+        "IO1",
+        "DM1"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "IO2",
+        "DP1"
+      ],
+      "4": [
+        "IO2",
+        "DP1"
+      ],
+      "5": [
+        "VBUS",
+        "VBUS1"
+      ],
+      "6": [
+        "IO1",
+        "DM1"
+      ]
+    },
+    "pos": [
+      25.5,
+      43.5
+    ],
+    "mpn": "USBLC6-2SC6",
+    "types": {},
+    "source_fp": "Package_TO_SOT_SMD:SOT-23-6"
+  },
+  {
+    "ref": "U3",
+    "value": "TPS2557DRB",
+    "fp": "UMI_D2:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm",
+    "pins": {
+      "1": [
+        "GND",
+        "GND"
+      ],
+      "2": [
+        "IN",
+        "5V_BUS"
+      ],
+      "3": [
+        "IN",
+        "5V_BUS"
+      ],
+      "4": [
+        "EN",
+        "5V_BUS"
+      ],
+      "5": [
+        "ILIM",
+        "ILIM2"
+      ],
+      "6": [
+        "OUT",
+        "VBUS2"
+      ],
+      "7": [
+        "OUT",
+        "VBUS2"
+      ],
+      "8": [
+        "FAULT",
+        "FAULT2"
+      ],
+      "9": [
+        "EP",
+        "GND"
+      ]
+    },
+    "pos": [
+      71.0,
+      36.0
+    ],
+    "mpn": "TPS2557DRBR",
+    "types": {
+      "2": "power_in",
+      "3": "power_in",
+      "4": "input",
+      "6": "power_out",
+      "8": "open_collector"
+    },
+    "source_fp": "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
+  },
+  {
+    "ref": "R3",
+    "value": "32.4k 0.1%",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "ILIM2"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      76.0,
+      36.0
+    ],
+    "mpn": "RT0603BRD0732K4L",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "R5",
+    "value": "100k",
+    "fp": "UMI_D2:R_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "FAULT2"
+      ]
+    },
+    "pos": [
+      76.0,
+      32.0
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "types": {},
+    "source_fp": "Resistor_SMD:R_0603_1608Metric"
+  },
+  {
+    "ref": "C5",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      71.0,
+      32.0
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C7",
+    "value": "22uF 10V",
+    "fp": "UMI_D2:C_1206_3216Metric",
+    "pins": {
+      "1": [
+        "1",
+        "VBUS2"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      73.5,
+      43.5
+    ],
+    "mpn": "GRM31CR71A226KE15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1206_3216Metric"
+  },
+  {
+    "ref": "J3",
+    "value": "USB-A 3A",
+    "fp": "UMI_D2:USB_A_Wurth_614004190021",
+    "pins": {
+      "1": [
+        "VBUS",
+        "VBUS2"
+      ],
+      "2": [
+        "D-",
+        "DM2"
+      ],
+      "3": [
+        "D+",
+        "DP2"
+      ],
+      "4": [
+        "GND",
+        "GND"
+      ],
+      "SH": [
+        "SHIELD",
+        "GND"
+      ]
+    },
+    "pos": [
+      65.0,
+      47.0
+    ],
+    "mpn": "614004190021",
+    "types": {},
+    "source_fp": "UMI_D2:USB_A_Wurth_614004190021"
+  },
+  {
+    "ref": "U6",
+    "value": "USBLC6-2SC6",
+    "fp": "UMI_D2:SOT-23-6",
+    "pins": {
+      "1": [
+        "IO1",
+        "DM2"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "IO2",
+        "DP2"
+      ],
+      "4": [
+        "IO2",
+        "DP2"
+      ],
+      "5": [
+        "VBUS",
+        "VBUS2"
+      ],
+      "6": [
+        "IO1",
+        "DM2"
+      ]
+    },
+    "pos": [
+      68.5,
+      43.5
+    ],
+    "mpn": "USBLC6-2SC6",
+    "types": {},
+    "source_fp": "Package_TO_SOT_SMD:SOT-23-6"
+  },
+  {
+    "ref": "U4",
+    "value": "TPS2513ADBVR",
+    "fp": "UMI_D2:SOT-23-6",
+    "pins": {
+      "1": [
+        "DP1",
+        "DP1"
+      ],
+      "2": [
+        "GND",
+        "GND"
+      ],
+      "3": [
+        "DP2",
+        "DP2"
+      ],
+      "4": [
+        "DM2",
+        "DM2"
+      ],
+      "5": [
+        "IN",
+        "5V_BUS"
+      ],
+      "6": [
+        "DM1",
+        "DM1"
+      ]
+    },
+    "pos": [
+      47.0,
+      44.0
+    ],
+    "mpn": "TPS2513ADBVR",
+    "types": {
+      "5": "power_in"
+    },
+    "source_fp": "Package_TO_SOT_SMD:SOT-23-6"
+  },
+  {
+    "ref": "C8",
+    "value": "100nF 25V",
+    "fp": "UMI_D2:C_0603_1608Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      47.0,
+      48.0
+    ],
+    "mpn": "GRM188R71E104KA01D",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_0603_1608Metric"
+  },
+  {
+    "ref": "C13",
+    "value": "47uF 10V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      44.0,
+      37.0
+    ],
+    "mpn": "GRM32ER71A476ME15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "C14",
+    "value": "47uF 10V X7R",
+    "fp": "UMI_D2:C_1210_3225Metric",
+    "pins": {
+      "1": [
+        "1",
+        "5V_BUS"
+      ],
+      "2": [
+        "2",
+        "GND"
+      ]
+    },
+    "pos": [
+      50.0,
+      37.0
+    ],
+    "mpn": "GRM32ER71A476ME15L",
+    "types": {},
+    "source_fp": "Capacitor_SMD:C_1210_3225Metric"
+  },
+  {
+    "ref": "H1",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      13.5,
+      14.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {},
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3"
+  },
+  {
+    "ref": "H2",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      86.5,
+      14.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {},
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3"
+  },
+  {
+    "ref": "H3",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      13.5,
+      56.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {},
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3"
+  },
+  {
+    "ref": "H4",
+    "value": "M3 MOUNT",
+    "fp": "UMI_D2:MountingHole_3.2mm_M3",
+    "pins": {},
+    "pos": [
+      86.5,
+      56.0
+    ],
+    "mpn": "MECHANICAL - NO PURCHASE",
+    "types": {},
+    "source_fp": "MountingHole:MountingHole_3.2mm_M3"
+  }
+]
