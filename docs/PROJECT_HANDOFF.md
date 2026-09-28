@@ -18,6 +18,8 @@ Six simplified STEP files were generated and reimported through Open CASCADE. Th
 
 ## Remaining work before manufacture and system release
 
+**First priority — corrected board outlines:** On 2026-09-28 the owner confirmed that the existing outlines are out of date. Correct replacement geometry is pending; no outline changes have been guessed or applied. Obtain the authoritative mechanical files/dimensions for the affected boards, including mounting holes and connector constraints. Rework layout/routing as needed, validate clearances and regenerate manufacturing and STEP outputs as a new revision. Current D6 files are historical design evidence, not approved final mechanics.
+
 1. Obtain supplier acceptance of the explicit 4-layer copper/thickness combinations, selective epoxy fill/copper cap treatment and heavy-inductor fixture. QUOTE_REQUEST.md is prepared but has not been sent to JLC. Review placement/polarity previews and exact assembly attrition before purchasing.
 2. Recheck and reserve stock at ordering time. Prior observations include tight C1 and L1 stock and the obsolete Littelfuse 166.7000.4302 output fuse; these are not live stock guarantees.
 3. Confirm the exact Ethernet switch model/input-voltage tolerance and USB-powered device model. The supplied switch requirement was 53.5 V / 1.31 A; that alone does not verify maximum input tolerance. USB-A outputs do not provide USB PD or data; device charging compatibility remains untested.

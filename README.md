@@ -10,6 +10,10 @@ Three separate boards distribute a 12 V supply to the UMI system. **D6 is the cu
 
 All boards use four copper layers, 2 oz outer / 1 oz inner. Planned batch: **10 of each board**. Enclosure ambient limit: **40 °C**.
 
+## Mechanical update required
+
+On 2026-09-28, the project owner confirmed that the current board outlines are out of date. **D6 manufacturing files and STEP models are on hold pending corrected outlines and mounting geometry.** The size table above describes the existing D6 files, not the approved final mechanics. The replacement mechanical source has not yet been identified. Apply the correct boundaries, mounting holes and connector constraints, then update placement/routing as necessary, rerun checks and regenerate manufacturing/STEP outputs before supplier submission.
+
 ## Start here
 
 - [D6 design and manufacturing overview](design/D6/README.md)
