@@ -42,3 +42,5 @@ MAIN schematic presentation is now D6S1 in design/D6S1/MAIN_POWER. It uses visib
 ## MAIN user-layout repair — D6L1, 2026-09-29
 
 Use design/D6L1/MAIN_POWER for the latest MAIN PCB and accompanying D6S1 schematic. The user rearranged components in KiCad; five branches were rerouted and four planes refilled without changing any footprint or board graphics. Final DRC/parity reports zero violations and zero unconnected items. D6 and D6S1 remain historical copies. MAIN Gerbers, STEP files and position-based documentation from those revisions are stale and need regeneration after mechanical confirmation. PoE and USB remain D6. User-open source files were preserved; continue from the delivered D6L1 copy.
+
+MAIN D6L1 text update: all printed board notes are now on F.SilkS; six former B.SilkS notes were unmirrored and placed below the outputs. Copper and component placement unchanged; DRC/parity remains clean.

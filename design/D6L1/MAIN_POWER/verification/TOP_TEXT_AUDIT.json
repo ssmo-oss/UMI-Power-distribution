@@ -1,0 +1,7 @@
+{
+  "moved_notes": 6,
+  "all_board_silkscreen_text_on_top": true,
+  "copper_footprints_and_outline_unchanged": true,
+  "DRC": "pass",
+  "board_sha256": "f980086877c7a6ea8ae5f3fe63c733aecc7c7c5e992ea1d3056fa643920bd047"
+}
