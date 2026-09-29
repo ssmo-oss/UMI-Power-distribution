@@ -9,8 +9,8 @@
     "--schematic-parity",
     "--exit-code-violations",
     "--output",
-    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L\\MAIN_POWER\\verification\\DRC.json",
-    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L\\MAIN_POWER\\MAIN_POWER.kicad_pcb"
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L_FAN\\MAIN_POWER\\verification\\DRC.json",
+    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L_FAN\\MAIN_POWER\\MAIN_POWER.kicad_pcb"
   ],
   "process_error_mode_hex": "0x8003",
   "creation_flags": "CREATE_NO_WINDOW",
@@ -22,8 +22,8 @@
   },
   "exit_code": 0,
   "exit_code_hex": "0x0",
-  "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to C:/Users/Sandi/Documents/Codex/2026-09-25/change-apperance-to-dark/outputs/UMI_MAIN_D7_2L/MAIN_POWER/verification/DRC.json\n",
+  "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to C:/Users/Sandi/Documents/Codex/2026-09-25/change-apperance-to-dark/outputs/UMI_MAIN_D7_2L_FAN/MAIN_POWER/verification/DRC.json\n",
   "stderr": "",
   "timed_out": false,
-  "elapsed_seconds": 0.672
+  "elapsed_seconds": 0.657
 }

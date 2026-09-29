@@ -48,3 +48,5 @@ MAIN D6L1 text update: all printed board notes are now on F.SilkS; six former B.
 ## Two-layer MAIN option — D7-2L
 
 The user requested a two-layer MAIN while keeping the layout. design/D7-2L/MAIN_POWER is that candidate: same placement, holes, outline and dual-outer branch tracks; 2 oz F.Cu and B.Cu, 1.2 mm finished thickness. Two refilled solid-connected planes, no vias. DRC/ERC/parity pass; two-layer Gerber/drill files are included. D6L1 four-layer version is preserved. Local branch resistance estimates are documented, but complete shared-plane/contact losses and 20 A thermal performance are not qualified. Test at 40 C and confirm mechanics before manufacture. Parts unchanged; use the existing combined sourcing list. PoE/USB remain D6 four-layer.
+
+D7-2L FAN branch update: user requested matching connection size. The six 1 mm FAN branch segments were widened to 3 mm on both outer layers; 2 mm terminal links and 1 A fuse remain. There are no vias on MAIN. Placement unchanged; fills, Gerbers and preview updated; DRC/parity passes.

@@ -1,6 +1,6 @@
 {
   "layout_and_footprints_preserved": true,
-  "outer_tracks_preserved": true,
+  "outer_tracks_preserved": false,
   "outline_and_holes_preserved": true,
   "copper_layers": [
     "F.Cu",
@@ -24,10 +24,10 @@
       "net": "FAN_12V",
       "load_allowance_A": 0.14,
       "branch_path_mm": 9.695331880577402,
-      "width_per_outer_layer_mm": 1,
-      "ideal_parallel_branch_resistance_40C_mOhm": 1.2877522630041223,
-      "ideal_branch_drop_mV": 0.18028531682057714,
-      "ideal_branch_dissipation_mW": 0.0252399443548808
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.42925075433470744,
+      "ideal_branch_drop_mV": 0.060095105606859045,
+      "ideal_branch_dissipation_mW": 0.008413314784960267
     },
     {
       "net": "USB_12V",
@@ -59,7 +59,8 @@
   ],
   "limitations": "Ideal branch trace estimates only; excludes pads, contacts, fuses, shared supply/return planes, unequal current sharing, and self-heating. Not an ampacity or thermal qualification.",
   "source_sha256": {
-    "MAIN_POWER.kicad_pcb": "8d55f6574290f6a47aeee943bd4d9383c858a00a7f58222f92463433b4054608",
+    "MAIN_POWER.kicad_pcb": "591c4b961fdef87968d4926e71a35decdc7a2b0b6becbe9aacc545d944b16611",
     "MAIN_POWER.kicad_sch": "91f978768ae1937852e0c30fcb7bd867653577a758811c9ced0b42f0930e1baa"
-  }
+  },
+  "fan_track_update": "Six FAN_12V branch segments widened from 1 mm to 3 mm, matching other branch paths; terminal links remain 2 mm."
 }

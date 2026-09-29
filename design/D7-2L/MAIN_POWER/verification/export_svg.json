@@ -10,8 +10,8 @@
     "--fit-page-to-board",
     "--exclude-drawing-sheet",
     "--output",
-    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L\\MAIN_POWER\\review\\MAIN_POWER_top.svg",
-    "C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L\\MAIN_POWER\\MAIN_POWER.kicad_pcb"
+    "C:\\Users\\Sandi\\Documents\\KiCad\\UMI_MAIN_POWER_D7_2L\\MAIN_POWER\\review\\MAIN_POWER_top.svg",
+    "C:\\Users\\Sandi\\Documents\\KiCad\\UMI_MAIN_POWER_D7_2L\\MAIN_POWER\\MAIN_POWER.kicad_pcb"
   ],
   "process_error_mode_hex": "0x8003",
   "creation_flags": "CREATE_NO_WINDOW",
@@ -23,8 +23,8 @@
   },
   "exit_code": 0,
   "exit_code_hex": "0x0",
-  "stdout": "Plotted to 'C:\\Users\\Sandi\\Documents\\Codex\\2026-09-25\\change-apperance-to-dark\\outputs\\UMI_MAIN_D7_2L\\MAIN_POWER\\review\\MAIN_POWER_top.svg'.\nDone.\n",
+  "stdout": "Plotted to 'C:\\Users\\Sandi\\Documents\\KiCad\\UMI_MAIN_POWER_D7_2L\\MAIN_POWER\\review\\MAIN_POWER_top.svg'.\nDone.\n",
   "stderr": "",
   "timed_out": false,
-  "elapsed_seconds": 0.297
+  "elapsed_seconds": 0.266
 }
