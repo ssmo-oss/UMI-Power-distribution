@@ -1,5 +1,13 @@
 # Project handoff â€” 2026-09-28
 
+## Latest procurement package — 2026-09-29
+
+User explicitly scoped this purchase to MAIN D7-2L only, ten boards. See `procurement/MAIN_D7_2L_UK_10/README.md`. One combined XLSX includes all MAIN PCB parts, fuse inserts, MAIN-end mating housings and contacts, with 20% spares and contacts rounded to two 100-contact strips. Nine DigiKey UK import lines total an observed GBP 259.48 ex VAT/delivery; stock and price are not reserved. Natural VHR-2N housing is used instead of the earlier black VHR-2N-BK. PCB part selection and geometry are unchanged.
+
+DigiKey online Bulk Add returned an Error/POST dialog; an individual-product retry did not show a successful addition. No live basket was completed, no order submitted. CSV and text import files allow reconstruction. Device-end connectors, cable lengths, enclosure hardware and tooling remain installation-dependent and are excluded.
+
+JLCPCB upload ZIP is byte-identical to the latest D7-2L manufacturing export: 2 layers, 2 oz per side, 1.2 mm, ENIG; ten bare PCBs, manual assembly, no stencil. Source hashes match saved clean ERC/DRC/two-layer audit. The mechanical outline is still unconfirmed and physical thermal/voltage-drop testing at 40 C is pending. This procurement step does not release the board for production. It does not change PoE or USB sourcing or fabrication files.
+
 ## Accepted requirements and decisions
 
 - Original two-board proposal evolved into three boards for independent replacement/modification of the PoE supply. D6 is the latest delivered revision.

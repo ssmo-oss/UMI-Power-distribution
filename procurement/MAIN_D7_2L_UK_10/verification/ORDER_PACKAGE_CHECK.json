@@ -1,0 +1,22 @@
+{
+  "prepared": "2026-09-29",
+  "scope": "10 MAIN D7-2L bare boards plus manual assembly parts and MAIN-end mating connectors",
+  "pcb_sha256": "591c4b961fdef87968d4926e71a35decdc7a2b0b6becbe9aacc545d944b16611",
+  "schematic_sha256": "91f978768ae1937852e0c30fcb7bd867653577a758811c9ced0b42f0930e1baa",
+  "source_matches_saved_validation": true,
+  "gerbers_match_source_export_directory": true,
+  "gerber_file_count": 10,
+  "copper_layers": 2,
+  "saved_drc_violations": 0,
+  "saved_drc_unconnected": 0,
+  "saved_drc_parity": 0,
+  "purchase_lines": 9,
+  "online_cart_created": false,
+  "order_submitted": false,
+  "remaining_limits": [
+    "Final outline and mounting geometry unconfirmed",
+    "Complete-board voltage drop and thermal validation at 40 C pending",
+    "Supplier prices and stock are observations, not reservations",
+    "Cable lengths and device-end connector details not specified"
+  ]
+}

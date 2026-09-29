@@ -1,0 +1,66 @@
+{
+  "layout_and_footprints_preserved": true,
+  "outer_tracks_preserved": false,
+  "outline_and_holes_preserved": true,
+  "copper_layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "copper_thickness_mm_each": 0.07,
+  "finished_thickness_mm": 1.2,
+  "vias": 0,
+  "plane_connections": "solid, no thermal spokes",
+  "branch_estimates": [
+    {
+      "net": "JETSON_12V",
+      "load_allowance_A": 5,
+      "branch_path_mm": 9.695331880577402,
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.4292507543347074,
+      "ideal_branch_drop_mV": 2.146253771673537,
+      "ideal_branch_dissipation_mW": 10.731268858367685
+    },
+    {
+      "net": "FAN_12V",
+      "load_allowance_A": 0.14,
+      "branch_path_mm": 9.695331880577402,
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.42925075433470744,
+      "ideal_branch_drop_mV": 0.060095105606859045,
+      "ideal_branch_dissipation_mW": 0.008413314784960267
+    },
+    {
+      "net": "USB_12V",
+      "load_allowance_A": 2.831325,
+      "branch_path_mm": 9.69533188057741,
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.4292507543347078,
+      "ideal_branch_drop_mV": 1.2153483920167163,
+      "ideal_branch_dissipation_mW": 3.44104628602673
+    },
+    {
+      "net": "FUSED_BOOST_12V",
+      "load_allowance_A": 6.491558333333334,
+      "branch_path_mm": 9.521362184380699,
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.4215484266327116,
+      "ideal_branch_drop_mV": 2.7365062018111344,
+      "ideal_branch_dissipation_mW": 17.764189638585417
+    },
+    {
+      "net": "SG4A_12V",
+      "load_allowance_A": 4,
+      "branch_path_mm": 9.695331880577413,
+      "width_per_outer_layer_mm": 3,
+      "ideal_parallel_branch_resistance_40C_mOhm": 0.42925075433470794,
+      "ideal_branch_drop_mV": 1.7170030173388318,
+      "ideal_branch_dissipation_mW": 6.868012069355327
+    }
+  ],
+  "limitations": "Ideal branch trace estimates only; excludes pads, contacts, fuses, shared supply/return planes, unequal current sharing, and self-heating. Not an ampacity or thermal qualification.",
+  "source_sha256": {
+    "MAIN_POWER.kicad_pcb": "591c4b961fdef87968d4926e71a35decdc7a2b0b6becbe9aacc545d944b16611",
+    "MAIN_POWER.kicad_sch": "91f978768ae1937852e0c30fcb7bd867653577a758811c9ced0b42f0930e1baa"
+  },
+  "fan_track_update": "Six FAN_12V branch segments widened from 1 mm to 3 mm, matching other branch paths; terminal links remain 2 mm."
+}

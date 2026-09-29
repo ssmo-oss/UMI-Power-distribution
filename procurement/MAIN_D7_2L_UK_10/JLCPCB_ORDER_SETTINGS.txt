@@ -1,0 +1,48 @@
+JLCPCB MAIN D7-2L — 10 bare PCBs
+Prepared 29 September 2026. Prototype candidate; existing mechanical hold remains.
+
+Upload only JLCPCB_MAIN_D7_2L_GERBERS.zip to the PCB fabrication quote form.
+Do not upload the purchasing bundle or the Excel spreadsheet as Gerbers.
+
+Base material: FR-4
+Layer count: 2
+Quantity: 10
+Different designs: 1
+Delivery format: Single PCB
+Finished thickness: 1.2 mm
+Outer copper weight: 2 oz on BOTH sides (nominal 70 um each)
+Surface finish: ENIG
+Solder mask: Green
+Silkscreen: White
+PCB assembly: No — all 11 PCB components are through-hole and manually fitted
+Stencil: No
+Via filling/capping: Not required — no vias
+Controlled impedance: No
+Electrical test: Required (fabricator standard test)
+
+Nominal outline: 68.000 x 100.263962 mm, preserve supplied Edge_Cuts exactly.
+The job file reports 68.05 x 100.314 mm because it includes the outline stroke.
+Do not scale or trim the board to qualify for a 100 x 100 mm price band.
+Use the Gerber viewer to check layer mapping and dimensions before accepting the quote.
+If a selected thickness/copper combination is unavailable, stop for stackup review;
+do not substitute 1 oz copper or a different thickness automatically.
+
+Top copper: MAIN_POWER-F_Cu.gtl
+Bottom copper: MAIN_POWER-B_Cu.gbl
+Top/bottom mask: .gts / .gbs
+Top/bottom legend: .gto / .gbo
+Board outline: MAIN_POWER-Edge_Cuts.gm1
+Plated holes: MAIN_POWER-PTH.drl
+Non-plated holes: MAIN_POWER-NPTH.drl
+Gerber job: MAIN_POWER-job.gbrjob
+
+This is the latest FAN-3-mm D7-2L export. It is not a production qualification.
+Native saved ERC/DRC are clean under the project's configured rules. No fresh CAD
+run was needed: source hashes match the saved audit and the exported ZIP was checked
+byte-for-byte against the manufacturing directory. Final geometry still needs the
+user's confirmation; physical thermal and voltage-drop tests at 40 C remain open.
+
+Official guidance:
+https://jlcpcb.com/help/article/how-do-i-place-an-order
+https://jlcpcb.com/help/article/instructions-for-ordering
+https://jlcpcb.com/help/article/jlcpcb-copper-weight

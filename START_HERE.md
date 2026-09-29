@@ -1,5 +1,7 @@
 # Resume on another computer
 
+LATEST PROCUREMENT (2026-09-29): `procurement/MAIN_D7_2L_UK_10/` contains the MAIN-only ten-board UK purchasing list, DigiKey basket import files, matching two-layer JLCPCB Gerber ZIP and order settings. It includes the latest 3 mm FAN tracks. No online basket/order was completed; DigiKey Bulk Add returned a server error. The existing mechanical and physical-validation holds remain. For MAIN, use `design/D7-2L/MAIN_POWER/MAIN_POWER.kicad_pro`; the older D6 MAIN instructions below are historical.
+
 NEWEST OPTION: MAIN D7-2L is the requested two-layer prototype in design/D7-2L/MAIN_POWER, preserving the D6L1 component layout. Read its README and the latest handoff entry. D6L1 remains the four-layer fallback. Neither is production-qualified.
 
 LATEST UPDATE: MAIN layout is now D6L1 (design/D6L1/MAIN_POWER), reconnected after user placement edits; its schematic is the D6S1 redraw. Read the latest entry in docs/PROJECT_HANDOFF.md. D6/D6S1 MAIN manufacturing and STEP outputs are stale for this layout. The older state described below is superseded for MAIN PCB selection.
