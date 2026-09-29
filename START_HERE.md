@@ -1,5 +1,7 @@
 # Resume on another computer
 
+NEWEST OPTION: MAIN D7-2L is the requested two-layer prototype in design/D7-2L/MAIN_POWER, preserving the D6L1 component layout. Read its README and the latest handoff entry. D6L1 remains the four-layer fallback. Neither is production-qualified.
+
 LATEST UPDATE: MAIN layout is now D6L1 (design/D6L1/MAIN_POWER), reconnected after user placement edits; its schematic is the D6S1 redraw. Read the latest entry in docs/PROJECT_HANDOFF.md. D6/D6S1 MAIN manufacturing and STEP outputs are stale for this layout. The older state described below is superseded for MAIN PCB selection.
 
 Repository: https://github.com/ssmo-oss/UMI-Power-distribution

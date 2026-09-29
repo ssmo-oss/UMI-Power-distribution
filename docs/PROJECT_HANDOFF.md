@@ -44,3 +44,7 @@ MAIN schematic presentation is now D6S1 in design/D6S1/MAIN_POWER. It uses visib
 Use design/D6L1/MAIN_POWER for the latest MAIN PCB and accompanying D6S1 schematic. The user rearranged components in KiCad; five branches were rerouted and four planes refilled without changing any footprint or board graphics. Final DRC/parity reports zero violations and zero unconnected items. D6 and D6S1 remain historical copies. MAIN Gerbers, STEP files and position-based documentation from those revisions are stale and need regeneration after mechanical confirmation. PoE and USB remain D6. User-open source files were preserved; continue from the delivered D6L1 copy.
 
 MAIN D6L1 text update: all printed board notes are now on F.SilkS; six former B.SilkS notes were unmirrored and placed below the outputs. Copper and component placement unchanged; DRC/parity remains clean.
+
+## Two-layer MAIN option — D7-2L
+
+The user requested a two-layer MAIN while keeping the layout. design/D7-2L/MAIN_POWER is that candidate: same placement, holes, outline and dual-outer branch tracks; 2 oz F.Cu and B.Cu, 1.2 mm finished thickness. Two refilled solid-connected planes, no vias. DRC/ERC/parity pass; two-layer Gerber/drill files are included. D6L1 four-layer version is preserved. Local branch resistance estimates are documented, but complete shared-plane/contact losses and 20 A thermal performance are not qualified. Test at 40 C and confirm mechanics before manufacture. Parts unchanged; use the existing combined sourcing list. PoE/USB remain D6 four-layer.

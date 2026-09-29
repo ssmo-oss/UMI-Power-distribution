@@ -14,7 +14,11 @@ All boards use four copper layers, 2 oz outer / 1 oz inner. Planned batch: **10 
 
 On 2026-09-28, the project owner confirmed that the current board outlines are out of date. **D6 manufacturing files and STEP models are on hold pending corrected outlines and mounting geometry.** The size table above describes the existing D6 files, not the approved final mechanics. The replacement mechanical source has not yet been identified. Apply the correct boundaries, mounting holes and connector constraints, then update placement/routing as necessary, rerun checks and regenerate manufacturing/STEP outputs before supplier submission.
 
-## Latest MAIN layout: D6L1
+## Latest MAIN option: D7-2L
+
+[Two-layer MAIN prototype](design/D7-2L/README.md) preserves the user layout and uses 2 oz copper on each side at 1.2 mm thickness. Native ERC/DRC/parity checks pass. The four-layer D6L1 option remains preserved. Full shared-path voltage-drop/thermal qualification and mechanical confirmation remain pending. PoE and USB are unchanged. [Download D7-2L](packages/UMI_MAIN_POWER_D7_2L_PROTOTYPE.zip).
+
+## Preserved four-layer MAIN layout: D6L1
 
 The user rearranged MAIN components on 2026-09-29. [D6L1](design/D6L1/README.md) restores the branch connections and fills while preserving those placements and graphics. Native DRC/parity: zero violations and zero unconnected items. [Open the current MAIN project](design/D6L1/MAIN_POWER/MAIN_POWER.kicad_pro). Older MAIN Gerbers and STEP files are now stale for this layout. Manufacturing remains on hold.
 
