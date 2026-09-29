@@ -16,7 +16,7 @@ The list supplies all 11 soldered components per board, five removable fuse inse
 
 Observed parts estimate: **GBP 259.48 excluding VAT, delivery and PCB fabrication**. Prices come from displayed DigiKey UK tiers; web search pages may be cached. Holder and 100-contact-strip availability were also checked in the browser. Stock is not reserved and all prices need refresh at checkout. Changing spreadsheet quantities recalculates quantities and totals using the recorded unit prices; it does not retrieve new tier prices. CSV/TXT are the fixed ten-board snapshot and do not auto-update with spreadsheet edits.
 
-The online basket could not be completed: DigiKey's Bulk Add returned an `Error / POST` dialog, and an individual product Add to Basket retry did not show a successful addition. The import files are provided instead. No checkout, payment, account creation or order submission occurred.
+Both online carts were subsequently created successfully. See [ONLINE_CART_STATUS.md](ONLINE_CART_STATUS.md) for basket links, live prices and saved cart references. No payment or order submission occurred.
 
 ## Assembly and harness details
 

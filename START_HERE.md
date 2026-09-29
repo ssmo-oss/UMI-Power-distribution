@@ -1,3 +1,7 @@
+## Cart update — 29 September 2026
+
+Ten-board MAIN D7-2L carts are now saved at JLCPCB and DigiKey. No payment/order submission. See [cart status](procurement/MAIN_D7_2L_UK_10/ONLINE_CART_STATUS.md). Earlier basket-failure notes are superseded. Mechanical and thermal holds remain.
+
 # Resume on another computer
 
 LATEST PROCUREMENT (2026-09-29): `procurement/MAIN_D7_2L_UK_10/` contains the MAIN-only ten-board UK purchasing list, DigiKey basket import files, matching two-layer JLCPCB Gerber ZIP and order settings. It includes the latest 3 mm FAN tracks. No online basket/order was completed; DigiKey Bulk Add returned a server error. The existing mechanical and physical-validation holds remain. For MAIN, use `design/D7-2L/MAIN_POWER/MAIN_POWER.kicad_pro`; the older D6 MAIN instructions below are historical.

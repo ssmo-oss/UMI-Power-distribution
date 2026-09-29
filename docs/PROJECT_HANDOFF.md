@@ -1,3 +1,7 @@
+## Cart update — 29 September 2026
+
+Ten-board MAIN D7-2L carts are now saved at JLCPCB and DigiKey. No payment/order submission. See [cart status](../procurement/MAIN_D7_2L_UK_10/ONLINE_CART_STATUS.md). Earlier basket-failure notes are superseded. Mechanical and thermal holds remain.
+
 # Project handoff â€” 2026-09-28
 
 ## Latest procurement package — 2026-09-29

@@ -11,12 +11,15 @@
   "saved_drc_unconnected": 0,
   "saved_drc_parity": 0,
   "purchase_lines": 9,
-  "online_cart_created": false,
+  "online_cart_created": true,
   "order_submitted": false,
   "remaining_limits": [
     "Final outline and mounting geometry unconfirmed",
     "Complete-board voltage drop and thermal validation at 40 C pending",
     "Supplier prices and stock are observations, not reservations",
     "Cable lengths and device-end connector details not specified"
-  ]
+  ],
+  "jlcpcb_cart_created": true,
+  "digikey_subtotal_gbp": 259.31,
+  "jlcpcb_merchandise_usd": 59.55
 }
