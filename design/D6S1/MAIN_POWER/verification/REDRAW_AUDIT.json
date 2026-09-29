@@ -1,0 +1,12 @@
+{
+  "electrical_pins_verified": 22,
+  "netlist_matches_D6_pin_schedule": true,
+  "PCB_byte_identical_to_D6": true,
+  "native_ERC": "pass",
+  "native_DRC_and_schematic_parity": "pass",
+  "source_sha256": {
+    "MAIN_POWER.kicad_pcb": "80d8bd5bdd6d9e96bbac56d41d675d5c0e80523ba0791100031d8f7a1d5eb122",
+    "MAIN_POWER.kicad_sch": "5fbd16168c00b6c932b9f453232913b10869e79aae021eac6282729a178dadbf",
+    "UMI.kicad_sym": "f4535427f6e230905ad6618bdba57a3da64bc8a243e1467b9ed5da07cd3727cf"
+  }
+}

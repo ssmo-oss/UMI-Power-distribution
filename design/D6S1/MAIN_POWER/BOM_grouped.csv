@@ -1,0 +1,11 @@
+﻿Reference,Value,Quantity per board,Manufacturer,Manufacturer part number,Footprint,Assembly,LCSC/JLC code,Sourcing note
+J1,12V PSU INPUT,1,Phoenix Contact,1709681,UMI_D2:Phoenix_1709681,MANUAL_THT,C5872886,"D6; dated stock observation, confirm procurement and assembly"
+"F1,F2",7.5A FUSE HOLDER,2,Littelfuse,178.6165.0002,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165,MANUAL_THT,C207061,"D6; dated stock observation, confirm procurement and assembly"
+J2,JETSON 12V 5A,1,JST,B2P-VH(LF)(SN),UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical,MANUAL_THT,C160315,"D6; dated stock observation, confirm procurement and assembly"
+J3,GMSL 12V / EXCLUSIVE WITH POE,1,JST,B2P-VH(LF)(SN),UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical,MANUAL_THT,C160315,"D6; dated stock observation, confirm procurement and assembly"
+F3,1A FUSE HOLDER,1,Littelfuse,178.6165.0002,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165,MANUAL_THT,C207061,"D6; dated stock observation, confirm procurement and assembly"
+J4,FAN 12V 0.14A,1,JST,B2P-VH(LF)(SN),UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical,MANUAL_THT,C160315,"D6; dated stock observation, confirm procurement and assembly"
+F4,5A FUSE HOLDER,1,Littelfuse,178.6165.0002,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165,MANUAL_THT,C207061,"D6; dated stock observation, confirm procurement and assembly"
+J5,USB BOARD 12V,1,JST,B2P-VH(LF)(SN),UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical,MANUAL_THT,C160315,"D6; dated stock observation, confirm procurement and assembly"
+F5,10A POE CABLE FUSE HOLDER,1,Littelfuse,178.6165.0002,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165,MANUAL_THT,C207061,"D6; dated stock observation, confirm procurement and assembly"
+J6,POE BOARD 12V INPUT,1,JST,B2P-VH(LF)(SN),UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical,MANUAL_THT,C160315,"D6; dated stock observation, confirm procurement and assembly"

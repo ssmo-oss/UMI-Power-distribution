@@ -1,12 +1,12 @@
-# Project handoff — 2026-09-28
+# Project handoff â€” 2026-09-28
 
 ## Accepted requirements and decisions
 
 - Original two-board proposal evolved into three boards for independent replacement/modification of the PoE supply. D6 is the latest delivered revision.
-- Board expansion was subsequently authorized; earlier size requests (including the initial 30 × 60 mm USB target) are superseded by the delivered dimensions. Use actual Edge.Cuts and mounting-hole geometry for mechanics.
+- Board expansion was subsequently authorized; earlier size requests (including the initial 30 Ã— 60 mm USB target) are superseded by the delivered dimensions. Use actual Edge.Cuts and mounting-hole geometry for mechanics.
 - Ten of each board; user fits through-hole connectors/holders and fuse inserts. JLC is the intended SMT assembler. Keep all parts on one combined sourcing list.
 - External supply basis: Mean Well RSP-320-12, nominal 12 V / 26.7 A. Mains wiring is outside these PCBs.
-- Maximum enclosure ambient 40 °C. PoE and GMSL loads are mutually exclusive; budget the larger configuration.
+- Maximum enclosure ambient 40 Â°C. PoE and GMSL loads are mutually exclusive; budget the larger configuration.
 - All six fuses retained: MAIN F1 Jetson 7.5 A, F2 GMSL 7.5 A, F3 fan 1 A, F4 USB 5 A, F5 PoE feed 10 A; POE F6 output 3 A / 80 V DC. F5 protects the interboard cable at its source, so no duplicate local PoE input fuse is fitted.
 - Jetson 7.5 A is a provisional protection rating, not its normal consumption. Validate startup, ambient derating and the weakest harness section before reducing it. USB port current-limit devices protect each output independently; a charging-only socket still requires overload protection.
 
@@ -18,13 +18,13 @@ Six simplified STEP files were generated and reimported through Open CASCADE. Th
 
 ## Remaining work before manufacture and system release
 
-**First priority — corrected board outlines:** On 2026-09-28 the owner confirmed that the existing outlines are out of date. Correct replacement geometry is pending; no outline changes have been guessed or applied. Obtain the authoritative mechanical files/dimensions for the affected boards, including mounting holes and connector constraints. Rework layout/routing as needed, validate clearances and regenerate manufacturing and STEP outputs as a new revision. Current D6 files are historical design evidence, not approved final mechanics.
+**First priority â€” corrected board outlines:** On 2026-09-28 the owner confirmed that the existing outlines are out of date. Correct replacement geometry is pending; no outline changes have been guessed or applied. Obtain the authoritative mechanical files/dimensions for the affected boards, including mounting holes and connector constraints. Rework layout/routing as needed, validate clearances and regenerate manufacturing and STEP outputs as a new revision. Current D6 files are historical design evidence, not approved final mechanics.
 
 1. Obtain supplier acceptance of the explicit 4-layer copper/thickness combinations, selective epoxy fill/copper cap treatment and heavy-inductor fixture. QUOTE_REQUEST.md is prepared but has not been sent to JLC. Review placement/polarity previews and exact assembly attrition before purchasing.
 2. Recheck and reserve stock at ordering time. Prior observations include tight C1 and L1 stock and the obsolete Littelfuse 166.7000.4302 output fuse; these are not live stock guarantees.
 3. Confirm the exact Ethernet switch model/input-voltage tolerance and USB-powered device model. The supplied switch requirement was 53.5 V / 1.31 A; that alone does not verify maximum input tolerance. USB-A outputs do not provide USB PD or data; device charging compatibility remains untested.
 4. Finalize cable lengths, device-end plugs, wire/pigtail ratings and upstream input-cable protection. AWG16 and at most 1 m one-way are provisional interboard assumptions, not confirmed installation measurements.
-5. Perform the test plan: polarity, unloaded startup, load steps, regulation/ripple, boost ringing/snubber, eFuse and per-port faults, fuse behavior, thermal rise at 40 °C, real-device boot/charging and enclosure EMC/ESD as applicable. No physical results have been claimed.
+5. Perform the test plan: polarity, unloaded startup, load steps, regulation/ripple, boost ringing/snubber, eFuse and per-port faults, fuse behavior, thermal rise at 40 Â°C, real-device boot/charging and enclosure EMC/ESD as applicable. No physical results have been claimed.
 6. Replace estimated STEP bodies with verified mechanical envelopes before final enclosure signoff; include mating plugs and cable bends.
 
 ## Tooling notes
@@ -34,3 +34,7 @@ Earlier KiCad bundled Python and CLI invocations produced application-crash dial
 The original knowledge-base pointer is https://sklvc.atlassian.net/wiki/spaces/LMP/pages/2171306022/UMI+Pack (access may require authentication). This transfer does not publish a dump of the private knowledge base, account credentials or browser sessions. Public manufacturer references are retained in the engineering documents.
 
 The user's previous permission question about sending files to JLC remains unanswered. This GitHub transfer is explicitly authorized; it does not constitute permission to place orders, make payments or contact JLC.
+
+## Latest update — 2026-09-29
+
+MAIN schematic presentation is now D6S1 in design/D6S1/MAIN_POWER. It uses visible supply/return rails and fused branches instead of disconnected-looking blocks. All 22 electrical pin/net assignments match D6; ERC and DRC/parity checks pass. The physical MAIN PCB is byte-identical to D6; PoE and USB remain D6. Corrected mechanical outlines are still pending: the user said on September 28 that they did not have the DXF yet. Do not infer that a replacement arrived merely because the planned day has passed.

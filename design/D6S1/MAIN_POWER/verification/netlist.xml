@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Sandi\Documents\KiCad\UMI-Power-distribution\design\D6S1\MAIN_POWER\MAIN_POWER.kicad_sch</source>
+    <date>2026-09-29T20:34:00</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UMI 12V distribution</title>
+        <company/>
+        <rev>D6S1</rev>
+        <date/>
+        <source>MAIN_POWER.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F1">
+      <value>7.5A FUSE HOLDER</value>
+      <footprint>UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</footprint>
+      <fields>
+        <field name="MPN">178.6165.0002</field>
+        <field name="Footprint">UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_F1" description=""/>
+      <property name="MPN" value="178.6165.0002"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e62a7aa2-cd7a-5ad6-a92c-8cd48d0157e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>7.5A FUSE HOLDER</value>
+      <footprint>UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</footprint>
+      <fields>
+        <field name="MPN">178.6165.0002</field>
+        <field name="Footprint">UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_F2" description=""/>
+      <property name="MPN" value="178.6165.0002"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970334bc-f7b4-57fb-aca9-fdf2dd120c6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F3">
+      <value>1A FUSE HOLDER</value>
+      <footprint>UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</footprint>
+      <fields>
+        <field name="MPN">178.6165.0002</field>
+        <field name="Footprint">UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_F3" description=""/>
+      <property name="MPN" value="178.6165.0002"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0724250-b34f-5ffd-8d54-eb1651a2886d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F4">
+      <value>5A FUSE HOLDER</value>
+      <footprint>UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</footprint>
+      <fields>
+        <field name="MPN">178.6165.0002</field>
+        <field name="Footprint">UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_F4" description=""/>
+      <property name="MPN" value="178.6165.0002"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e8a2877-535d-5e50-abc8-545fc98feec7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F5">
+      <value>10A POE CABLE FUSE HOLDER</value>
+      <footprint>UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</footprint>
+      <fields>
+        <field name="MPN">178.6165.0002</field>
+        <field name="Footprint">UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_F5" description=""/>
+      <property name="MPN" value="178.6165.0002"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c75c04e3-9ba5-5c44-b926-e38b8e5715e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M3 MOUNT</value>
+      <footprint>UMI_D2:MountingHole_4.5mm</footprint>
+      <fields>
+        <field name="MPN">MECHANICAL - NO PURCHASE</field>
+        <field name="Footprint">UMI_D2:MountingHole_4.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_H1" description=""/>
+      <property name="MPN" value="MECHANICAL - NO PURCHASE"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4684d08-b297-53c1-b902-3119205231ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M3 MOUNT</value>
+      <footprint>UMI_D2:MountingHole_4.5mm</footprint>
+      <fields>
+        <field name="MPN">MECHANICAL - NO PURCHASE</field>
+        <field name="Footprint">UMI_D2:MountingHole_4.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_H2" description=""/>
+      <property name="MPN" value="MECHANICAL - NO PURCHASE"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89a21016-4714-589b-ba7a-1e6efa27f358</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M3 MOUNT</value>
+      <footprint>UMI_D2:MountingHole_4.5mm</footprint>
+      <fields>
+        <field name="MPN">MECHANICAL - NO PURCHASE</field>
+        <field name="Footprint">UMI_D2:MountingHole_4.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_H3" description=""/>
+      <property name="MPN" value="MECHANICAL - NO PURCHASE"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22bd07c7-4632-5760-bbdb-4b1600d87da4</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M3 MOUNT</value>
+      <footprint>UMI_D2:MountingHole_4.5mm</footprint>
+      <fields>
+        <field name="MPN">MECHANICAL - NO PURCHASE</field>
+        <field name="Footprint">UMI_D2:MountingHole_4.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_H4" description=""/>
+      <property name="MPN" value="MECHANICAL - NO PURCHASE"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e72cb077-04c6-5ae0-8ba4-28207e49b602</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>12V PSU INPUT</value>
+      <footprint>UMI_D2:Phoenix_1709681</footprint>
+      <fields>
+        <field name="MPN">1709681</field>
+        <field name="Footprint">UMI_D2:Phoenix_1709681</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J1" description=""/>
+      <property name="MPN" value="1709681"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22762e20-ed83-5b1b-aa7e-e47605eef1fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>JETSON 12V 5A</value>
+      <footprint>UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B2P-VH(LF)(SN)</field>
+        <field name="Footprint">UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J2" description=""/>
+      <property name="MPN" value="B2P-VH(LF)(SN)"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17a8801f-0a95-5885-897f-8d7f63198cee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>GMSL 12V / EXCLUSIVE WITH POE</value>
+      <footprint>UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B2P-VH(LF)(SN)</field>
+        <field name="Footprint">UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J3" description=""/>
+      <property name="MPN" value="B2P-VH(LF)(SN)"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e89688db-b5de-57aa-b2f3-89cc11755fff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>FAN 12V 0.14A</value>
+      <footprint>UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B2P-VH(LF)(SN)</field>
+        <field name="Footprint">UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J4" description=""/>
+      <property name="MPN" value="B2P-VH(LF)(SN)"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34d5b99f-7433-58a5-ae05-877972c9b559</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>USB BOARD 12V</value>
+      <footprint>UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B2P-VH(LF)(SN)</field>
+        <field name="Footprint">UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J5" description=""/>
+      <property name="MPN" value="B2P-VH(LF)(SN)"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a2490a2-25f1-560f-8193-6c92c3486ed3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>POE BOARD 12V INPUT</value>
+      <footprint>UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B2P-VH(LF)(SN)</field>
+        <field name="Footprint">UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="UMI" part="P_J6" description=""/>
+      <property name="MPN" value="B2P-VH(LF)(SN)"/>
+      <property name="Sheetname" value="MAIN_POWER"/>
+      <property name="Sheetfile" value="MAIN_POWER.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>920952d0-e512-51d1-b7ee-f67ea60025ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="UMI" part="P_F1">
+      <fields>
+        <field name="Reference">F1</field>
+        <field name="Value">7.5A FUSE HOLDER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_F2">
+      <fields>
+        <field name="Reference">F2</field>
+        <field name="Value">7.5A FUSE HOLDER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_F3">
+      <fields>
+        <field name="Reference">F3</field>
+        <field name="Value">1A FUSE HOLDER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_F4">
+      <fields>
+        <field name="Reference">F4</field>
+        <field name="Value">5A FUSE HOLDER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_F5">
+      <fields>
+        <field name="Reference">F5</field>
+        <field name="Value">10A POE CABLE FUSE HOLDER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_H1">
+      <fields>
+        <field name="Reference">H1</field>
+        <field name="Value">M3 MOUNT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="UMI" part="P_H2">
+      <fields>
+        <field name="Reference">H2</field>
+        <field name="Value">M3 MOUNT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="UMI" part="P_H3">
+      <fields>
+        <field name="Reference">H3</field>
+        <field name="Value">M3 MOUNT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="UMI" part="P_H4">
+      <fields>
+        <field name="Reference">H4</field>
+        <field name="Value">M3 MOUNT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+    </libpart>
+    <libpart lib="UMI" part="P_J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">12V PSU INPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">JETSON 12V 5A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">GMSL 12V / EXCLUSIVE WITH POE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">FAN 12V 0.14A</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">USB BOARD 12V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UMI" part="P_J6">
+      <fields>
+        <field name="Reference">J6</field>
+        <field name="Value">POE BOARD 12V INPUT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="UMI">
+      <uri>${KIPRJMOD}/UMI.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="12V_IN" class="Default">
+      <node ref="F1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="F5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="2" name="FAN_12V" class="Default">
+      <node ref="F3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="FUSED_BOOST_12V" class="Default">
+      <node ref="F5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="5" name="JETSON_12V" class="Default">
+      <node ref="F1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="SG4A_12V" class="Default">
+      <node ref="F2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="USB_12V" class="Default">
+      <node ref="F4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
