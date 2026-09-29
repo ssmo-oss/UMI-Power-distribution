@@ -38,3 +38,7 @@ The user's previous permission question about sending files to JLC remains unans
 ## Latest update — 2026-09-29
 
 MAIN schematic presentation is now D6S1 in design/D6S1/MAIN_POWER. It uses visible supply/return rails and fused branches instead of disconnected-looking blocks. All 22 electrical pin/net assignments match D6; ERC and DRC/parity checks pass. The physical MAIN PCB is byte-identical to D6; PoE and USB remain D6. Corrected mechanical outlines are still pending: the user said on September 28 that they did not have the DXF yet. Do not infer that a replacement arrived merely because the planned day has passed.
+
+## MAIN user-layout repair — D6L1, 2026-09-29
+
+Use design/D6L1/MAIN_POWER for the latest MAIN PCB and accompanying D6S1 schematic. The user rearranged components in KiCad; five branches were rerouted and four planes refilled without changing any footprint or board graphics. Final DRC/parity reports zero violations and zero unconnected items. D6 and D6S1 remain historical copies. MAIN Gerbers, STEP files and position-based documentation from those revisions are stale and need regeneration after mechanical confirmation. PoE and USB remain D6. User-open source files were preserved; continue from the delivered D6L1 copy.

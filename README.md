@@ -4,17 +4,21 @@ Three separate boards distribute a 12 V supply to the UMI system. **D6 is the cu
 
 | Board | Function | PCB size / thickness | Planned assembly |
 |---|---|---|---|
-| MAIN_POWER | Fused 12 V distribution | 68 Ã— 100.264 mm / 1.2 mm | User fits all 11 through-hole parts |
-| POE_POWER | 12 V to nominal 53.5 V, 1.31 A switch supply | 106 Ã— 100 mm / 1.2 mm | JLC SMT, user fits 3 through-hole parts |
-| USB_POWER | Two charge-only USB-A ports, 3 A electrical design target each | 80 Ã— 50 mm / 1.6 mm | JLC SMT, user fits 3 through-hole parts |
+| MAIN_POWER | Fused 12 V distribution | 68 Ãƒâ€” 100.264 mm / 1.2 mm | User fits all 11 through-hole parts |
+| POE_POWER | 12 V to nominal 53.5 V, 1.31 A switch supply | 106 Ãƒâ€” 100 mm / 1.2 mm | JLC SMT, user fits 3 through-hole parts |
+| USB_POWER | Two charge-only USB-A ports, 3 A electrical design target each | 80 Ãƒâ€” 50 mm / 1.6 mm | JLC SMT, user fits 3 through-hole parts |
 
-All boards use four copper layers, 2 oz outer / 1 oz inner. Planned batch: **10 of each board**. Enclosure ambient limit: **40 Â°C**.
+All boards use four copper layers, 2 oz outer / 1 oz inner. Planned batch: **10 of each board**. Enclosure ambient limit: **40 Ã‚Â°C**.
 
 ## Mechanical update required
 
 On 2026-09-28, the project owner confirmed that the current board outlines are out of date. **D6 manufacturing files and STEP models are on hold pending corrected outlines and mounting geometry.** The size table above describes the existing D6 files, not the approved final mechanics. The replacement mechanical source has not yet been identified. Apply the correct boundaries, mounting holes and connector constraints, then update placement/routing as necessary, rerun checks and regenerate manufacturing/STEP outputs before supplier submission.
 
-## Latest MAIN schematic: D6S1
+## Latest MAIN layout: D6L1
+
+The user rearranged MAIN components on 2026-09-29. [D6L1](design/D6L1/README.md) restores the branch connections and fills while preserving those placements and graphics. Native DRC/parity: zero violations and zero unconnected items. [Open the current MAIN project](design/D6L1/MAIN_POWER/MAIN_POWER.kicad_pro). Older MAIN Gerbers and STEP files are now stale for this layout. Manufacturing remains on hold.
+
+## MAIN schematic redraw: D6S1
 
 The MAIN schematic was redrawn on 2026-09-29 with explicit branch wiring. [Open the D6S1 project](design/D6S1/MAIN_POWER/MAIN_POWER.kicad_pro), [view the schematic PDF](design/D6S1/MAIN_POWER/review/MAIN_POWER_schematic.pdf), or read the [revision notes](design/D6S1/README.md). The physical MAIN PCB is unchanged from D6; PoE and USB remain D6. The outline hold still applies. For another computer or agent, read [START_HERE.md](START_HERE.md).
 

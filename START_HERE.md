@@ -1,5 +1,7 @@
 # Resume on another computer
 
+LATEST UPDATE: MAIN layout is now D6L1 (design/D6L1/MAIN_POWER), reconnected after user placement edits; its schematic is the D6S1 redraw. Read the latest entry in docs/PROJECT_HANDOFF.md. D6/D6S1 MAIN manufacturing and STEP outputs are stale for this layout. The older state described below is superseded for MAIN PCB selection.
+
 Repository: https://github.com/ssmo-oss/UMI-Power-distribution
 
 Download or clone this repository on the new computer. In a desktop agent with local folder access, open the repository folder as the project. For a cloud/chat agent, connect the repository if available, or upload the downloaded files; a URL alone does not guarantee the agent can edit the repository. Authentication and KiCad installation belong to the new machine and are not included in this repository. See [OpenAI project guidance](https://learn.chatgpt.com/docs/projects).
