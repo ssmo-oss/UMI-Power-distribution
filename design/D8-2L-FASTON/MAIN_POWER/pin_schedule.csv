@@ -1,0 +1,23 @@
+Reference,MPN,Pin,Function,Net,Electrical type,Footprint
+J1,63951-4 x2,1,+12V,12V_IN,passive,UMI_D2:Input_FASTON_250_PAIR
+J1,63951-4 x2,2,RETURN,GND,passive,UMI_D2:Input_FASTON_250_PAIR
+F1,178.6165.0002,1,1,12V_IN,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+F1,178.6165.0002,2,2,JETSON_12V,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+J2,B2P-VH(LF)(SN),1,+12V,JETSON_12V,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+J2,B2P-VH(LF)(SN),2,RETURN,GND,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+F2,178.6165.0002,1,1,12V_IN,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+F2,178.6165.0002,2,2,SG4A_12V,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+J3,B2P-VH(LF)(SN),1,+12V,SG4A_12V,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+J3,B2P-VH(LF)(SN),2,RETURN,GND,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+F3,178.6165.0002,1,1,12V_IN,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+F3,178.6165.0002,2,2,FAN_12V,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+J4,B2P-VH(LF)(SN),1,+12V,FAN_12V,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+J4,B2P-VH(LF)(SN),2,RETURN,GND,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+F4,178.6165.0002,1,1,12V_IN,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+F4,178.6165.0002,2,2,USB_12V,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+J5,B2P-VH(LF)(SN),1,+12V,USB_12V,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+J5,B2P-VH(LF)(SN),2,RETURN,GND,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+F5,178.6165.0002,1,1,12V_IN,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+F5,178.6165.0002,2,2,FUSED_BOOST_12V,passive,UMI_D2:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+J6,B2P-VH(LF)(SN),1,+12V,FUSED_BOOST_12V,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical
+J6,B2P-VH(LF)(SN),2,RETURN,GND,passive,UMI_D2:JST_VH_B2P-VH_1x02_P3.96mm_Vertical

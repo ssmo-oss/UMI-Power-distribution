@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "UMI_D2") (type "KiCad") (uri "${KIPRJMOD}/UMI_D2.pretty") (options "") (descr "UMI D2 footprints")))

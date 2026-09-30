@@ -1,0 +1,11 @@
+(footprint "EverOhms_MA2512_2to5mOhm"
+ (version 20241229) (generator "pcbnew") (layer "F.Cu")
+ (descr "Ever Ohms MA2512 2-5mOhm recommended land: a2.60 b3.68 gap2.55; MA datasheet Rev30/34 p8; canonical supplier orientation")
+ (attr smd)
+ (fp_text reference "REF**" (at 0 -2.5) (layer "F.SilkS") (effects (font (size 1 1) (thickness 0.15))))
+ (fp_text value "EverOhms_MA2512_2to5mOhm" (at 0 2.5) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
+ (fp_rect (start -3.15 -1.6) (end 3.15 1.6) (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab"))
+ (fp_rect (start -4.15 -2.1) (end 4.15 2.1) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd"))
+ (pad "1" smd rect (at -2.575 0) (size 2.60 3.68) (layers "F.Cu" "F.Paste" "F.Mask"))
+ (pad "2" smd rect (at 2.575 0) (size 2.60 3.68) (layers "F.Cu" "F.Paste" "F.Mask"))
+)

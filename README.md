@@ -2,6 +2,13 @@
 
 Three separate boards distribute a 12 V supply to the UMI system. **D6 is the current prototype revision. It has not been physically qualified or approved for production.**
 
+## Latest mechanical candidate — D8-2L MAIN
+
+The owner supplied [10052907_AA-UMI POWER PCB OUTLINE V2_1.dxf](design/D8-2L/source/10052907_AA-UMI%20POWER%20PCB%20OUTLINE%20V2_1.dxf) for MAIN only on 2026-09-30. [D8-2L](design/D8-2L/README.md) applies its six revised 3.5 mm mounting-hole centers; the 121.8 × 60.5 mm outer contour is unchanged from V2. Fuse holders are on the underside, other components and text are on top, and the power paths are rerouted. J1 is now a pair of flat +12V/GND solder pads for 10 AWG input leads; the lead wires need external strain relief. D7-2L remains unchanged.
+A separate FASTON input alternative using two TE 63951-4 tabs is in [D8-2L-FASTON](design/D8-2L-FASTON/README.md); its blades point toward the top edge in the top view. TE recommends 1.57 mm PCB thickness, while the candidate remains 1.2 mm pending confirmation.
+
+**D8 is not ready for manufacturing.** Current KiCad 10.0.6 DRC reports 0 violations and 0 unconnected items; 14 schematic-parity warnings remain. Reconcile the mechanical-hole schematic records and complete thermal and enclosure review before release. See the saved [D8 DRC report](design/D8-2L/MAIN_POWER/verification/D8_DRC_DIRECT_SOLDER.json), [board preview](design/D8-2L/MAIN_POWER/review/MAIN_POWER_D8.svg), and [visual STEP assembly](design/D8-2L/MAIN_POWER/MAIN_POWER_D8.step). The STEP contains the board plus 10 component model proxies; it omits the input wires and is not exact vendor CAD.
+
 | Board | Function | PCB size / thickness | Planned assembly |
 |---|---|---|---|
 | MAIN_POWER | Fused 12 V distribution | 68 Ãƒâ€” 100.264 mm / 1.2 mm | User fits all 11 through-hole parts |
@@ -12,7 +19,7 @@ All boards use four copper layers, 2 oz outer / 1 oz inner. Planned batch: **10 
 
 ## Mechanical update required
 
-On 2026-09-28, the project owner confirmed that the current board outlines are out of date. **D6 manufacturing files and STEP models are on hold pending corrected outlines and mounting geometry.** The size table above describes the existing D6 files, not the approved final mechanics. The replacement mechanical source has not yet been identified. Apply the correct boundaries, mounting holes and connector constraints, then update placement/routing as necessary, rerun checks and regenerate manufacturing/STEP outputs before supplier submission.
+On 2026-09-28, the project owner confirmed that the D6 board outlines were out of date. D8-2L now applies the supplied replacement outline to MAIN only. D6 manufacturing files and STEP models remain historical and on hold; POE and USB replacement mechanics are still not supplied. Do not treat D8 as released for manufacture.
 
 ## Latest MAIN option: D7-2L
 

@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "UMI") (type "KiCad") (uri "${KIPRJMOD}/UMI.kicad_sym") (options "") (descr "UMI local circuit symbols")))

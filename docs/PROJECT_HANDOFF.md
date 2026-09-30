@@ -62,3 +62,27 @@ MAIN D6L1 text update: all printed board notes are now on F.SilkS; six former B.
 The user requested a two-layer MAIN while keeping the layout. design/D7-2L/MAIN_POWER is that candidate: same placement, holes, outline and dual-outer branch tracks; 2 oz F.Cu and B.Cu, 1.2 mm finished thickness. Two refilled solid-connected planes, no vias. DRC/ERC/parity pass; two-layer Gerber/drill files are included. D6L1 four-layer version is preserved. Local branch resistance estimates are documented, but complete shared-plane/contact losses and 20 A thermal performance are not qualified. Test at 40 C and confirm mechanics before manufacture. Parts unchanged; use the existing combined sourcing list. PoE/USB remain D6 four-layer.
 
 D7-2L FAN branch update: user requested matching connection size. The six 1 mm FAN branch segments were widened to 3 mm on both outer layers; 2 mm terminal links and 1 A fuse remain. There are no vias on MAIN. Placement unchanged; fills, Gerbers and preview updated; DRC/parity passes.
+
+## MAIN outline adaptation — D8-2L, 2026-09-30
+
+The owner supplied `10052907_AA-UMI POWER PCB OUTLINE V2.dxf` and confirmed the change is for MAIN only. `design/D8-2L/` preserves D7-2L and contains the first outline adaptation, source DXF, conversion script, review SVG and KiCad 10.0.6 DRC report. The DXF is in millimetres and defines one 121.8 × 60.5 mm contour and six 3.5 mm holes. Initial D8 rotates the existing placement/routes to the new landscape profile and refills both copper zones.
+
+The current D8 MAIN layout is saved in `design/D8-2L/MAIN_POWER`. Fuse centers F1–F5 share one row, output connector centers J2–J6 another, and each pair is centered on the same vertical line. Fuse holders are on B.Cu; other components and all board text are on the top side. F3/J4 moved 1.5 mm left to increase clearance from H2. All MAIN copper was rebuilt; KiCad 10.0.6 zone-refilled DRC reports 0 unconnected items and no track-to-hole or copper-edge clearance violations. Fourteen schematic-parity warnings remain for the six mechanical holes and footprint fields. No D8 Gerbers, drill package or BOM/CPL are generated. Keep manufacturing on hold; D7-2L is preserved as the electrical baseline. The supplied drawing describes mechanical geometry only and does not change electrical requirements.
+
+
+## MAIN outline revision V2_1 — 2026-09-30
+
+The owner supplied `10052907_AA-UMI POWER PCB OUTLINE V2_1.dxf` for MAIN. It preserves the V2 outer profile (121.8 × 60.5 mm, 30 line/arc segments) and shifts the six 3.5 mm mounting holes by 1.33–1.41 mm. The six NPTH footprints in D8-2L MAIN were updated to the revised centers. KiCad 10.0.6 zone-refilled DRC now reports 0 violations and 0 unconnected items; 14 schematic-parity warnings remain. See `design/D8-2L/README.md`; D7-2L remains unchanged.
+
+
+## D8 MAIN STEP assembly — 2026-09-30
+
+`design/D8-2L/MAIN_POWER/MAIN_POWER_D8.step` contains the board and 10 mounted component model proxies: JST J2–J6 and fuse holders F1–F5. J1 is now flat +12V/GND solder pads sized for 10 AWG leads; its tall terminal proxy was removed from STEP, and wires are omitted. The other models use scaled KiCad STEP library substitutes and are not vendor-exact. The STEP text was updated to remove J1 and checked for dangling entity references; it was not reimported for solid validation. Use for arrangement review only, and replace/verify model proxies before enclosure signoff.
+
+## D8 J1 low-profile input — 2026-09-30
+
+The owner confirmed only 10 mm of vertical clearance for the 12 V input. J1’s Phoenix 1709681 screw terminal is too tall, and the earlier 5.08 mm Phoenix model was only a visual placeholder. Molex’s 7.62 mm right-angle screw-terminal header 39730 is rated 10 A and is not suitable for the input; Phoenix’s 32 A FRONT 4 family is 29.4 mm high. The owner chose direct solder if a screw terminal cannot fit. J1 in D8 is now a pair of 8 × 8 mm flat copper pads on F.Cu for +12V and GND, labeled on silkscreen, with 16 ground stitching vias to B.Cu. Use 10 AWG input leads laid flat along the board and independently strain-relieved. No connector MPN applies. Thermal capacity, soldering process and cable strain relief require validation at the intended maximum current before release. DRC: 0 violations, 0 unconnected; schematic parity: 14 remaining warnings.
+
+## D8 FASTON 250 input alternative — 2026-09-30
+
+A separate MAIN variant is saved in `design/D8-2L-FASTON/`. J1 uses two TE 63951-4 FASTON 250 PCB tabs, arranged side by side with two 1.4 mm mounting holes per tab (four holes total, 5.08 mm pitch) and their top-view axes pointing toward the board top; TE 62998-2 is an off-board 10–8 AWG mating receptacle option. KiCad 10.0.6 DRC reports 0 violations and 0 unconnected items; 14 schematic-parity warnings remain for mechanical hole records. The board is 1.2 mm thick while TE recommends 1.57 mm. TE product data lists 8.89 mm terminal profile and a 1.4 mm hole, but the complete installed connector/wire envelope and current path still need qualification. No new STEP model is included yet. The flat solder-pad D8-2L candidate remains available separately.
