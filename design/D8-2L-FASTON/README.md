@@ -1,6 +1,8 @@
 # D8 MAIN — FASTON 250 input alternative
 
-This separate MAIN-board variant is based on D8-2L. It keeps the owner-supplied V2_1 outline, fuse and connector arrangement, routing, copper zones, and output connectors. J1 is changed to two TE Connectivity 63951-4 FASTON 250 PCB tabs, each with two plated mounting holes (four holes total) on the tab axis, with both blade axes pointing toward the board's top edge in the top view. The flat solder-pad version remains in `design/D8-2L/MAIN_POWER/`.
+This separate MAIN-board variant is based on D8-2L. It uses the owner-supplied V3 outline and keeps the fuse and connector arrangement, routing, copper zones, and output connectors. J1 is changed to two TE Connectivity 63951-4 FASTON 250 PCB tabs, each with two plated mounting holes (four holes total) on the tab axis, with both blade axes pointing toward the board's top edge in the top view. The flat solder-pad version remains in `design/D8-2L/MAIN_POWER/`.
+
+The FASTON pair is centered on the board's 139.6 mm X centerline. Its footprint courtyard sits 2.5 mm in from the straight lower board edge.
 
 ## Input connector
 
@@ -14,7 +16,8 @@ This separate MAIN-board variant is based on D8-2L. It keeps the owner-supplied 
 - `MAIN_POWER/MAIN_POWER.kicad_pcb` — updated PCB; copper zones refilled.
 - `MAIN_POWER/MAIN_POWER.kicad_sch` — J1 value, footprint, MPN and BOM status updated.
 - `MAIN_POWER/UMI_D2.pretty/Input_FASTON_250_PAIR.kicad_mod` — pair footprint with four 1.4 mm plated holes (two per tab, 5.08 mm pitch) and top-view tab orientation shown on F.Fab.
-- `MAIN_POWER/verification/D8_FASTON_DRC.json` — KiCad 10.0.6 check: 0 rule violations, 0 unconnected items, 14 schematic-parity warnings. Existing mechanical-hole parity warnings remain.
+- `MAIN_POWER/verification/D8_FASTON_DRC.json` — KiCad 10.0.6 check after V3 outline and zone refill: 0 rule violations, 0 unconnected items, and 0 schematic-parity warnings. The six DXF-derived 3.5 mm mounting holes have matching schematic records.
 - `MAIN_POWER/review/MAIN_POWER_D8_FASTON.svg` — top-view preview.
+- `MAIN_POWER/MAIN_POWER_D8_FASTON.step` — board, copper, pads, and all mounted component volumes.
 
-A matching variant STEP export is not available yet because the TE terminal’s 3D model has not been added. This is a prototype layout candidate, not a manufacturing release.
+The STEP uses a local dimension-based envelope proxy for the pair of 63951-4 tabs because the vendor STEP download is gated by a model-download agreement. It also uses generic STEP proxies for the JST VH output connectors and blade-fuse holders; they are not exact vendor models. The TE tab proxy is based on the published 6.35 × 0.8 mm blade and 8.89 mm height. TE recommends a 1.57 mm board, while this candidate is still 1.2 mm. Confirm terminal fit, the 10 mm enclosure clearance, current capacity, and the mating connector with exact vendor models before release. This remains a prototype layout candidate, not a manufacturing release.

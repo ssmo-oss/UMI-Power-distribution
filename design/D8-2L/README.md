@@ -4,7 +4,7 @@ Created 2026-09-30 from the D7-2L two-layer MAIN board after the owner supplied 
 
 ## Mechanical input
 
-Latest source: `source/10052907_AA-UMI POWER PCB OUTLINE V2_1.dxf` (SHA-256 `0877C00FB9349EF65E27D2A11B6E98D88A92D332F4D000D3EFB83654D1033AA7`). The earlier V2 file is retained for history. DXF `$INSUNITS` is millimetres. Both versions have the same 30-segment closed contour with bounds 121.8 × 60.5 mm and six 3.5 mm diameter mounting holes; V2_1 relocates every hole by 1.33–1.41 mm. The V2_1 hole centers are applied to the six NPTH footprints. No scaling was applied.
+Latest source: `source/10052938_AA-UMI POWER PCB OUTLINE V3.dxf` (SHA-256 `10ADAB7113C99765CFB8C23128E78733F5ECCF2D0ECE246013FCFE98C07AA364`). DXF `$INSUNITS` is millimetres. V3 has 32 unique contour segments, bounds 121.8 × 60.5 mm, and six 3.5 mm diameter mounting holes. Compared with V2_1 it moves the upper inner pair from DXF X=±19 mm to ±16 mm and revises the contour. V3 is applied to both D8 MAIN options without scaling; earlier outline files are retained for history.
 
 The DXF contour origin was mapped to the existing MAIN project coordinates as `x = 139.6 mm + DXF X` and `y = 97.131981 mm − DXF Y`. This keeps the board in the D7 project coordinate area. The DXF is mechanical geometry, not a source of electrical or assembly instructions.
 
@@ -14,11 +14,11 @@ D8 starts from the D7-2L electrical design, rotates the component layout to fit 
 
 ## Current validation and limits
 
-KiCad 10.0.6 DRC with zone refill after the flat-pad change reports 0 violations and 0 unconnected items. Fourteen schematic-parity warnings remain for the mechanical holes and footprint fields. The board is an editable routing candidate, not released for manufacture. The six mechanical holes still need matching schematic records. D8 has no manufacturing exports. Electrical voltage-drop, thermal and enclosure validation remain outstanding; in particular, the 10 AWG input connection and copper path still need thermal qualification at the maximum intended current.
+KiCad 10.0.6 DRC with zone refill reports 0 violations, 0 unconnected items, and 0 schematic-parity issues. The board is an editable routing candidate, not released for manufacture. Electrical voltage-drop, thermal and enclosure validation remain outstanding; in particular, the 10 AWG input connection and copper path still need thermal qualification at the maximum intended current.
 
 The top-view review is `MAIN_POWER/review/MAIN_POWER_D8.svg`; the underside view is `MAIN_POWER/review/MAIN_POWER_D8_bottom.svg`. The DRC data is `MAIN_POWER/verification/D8_DRC.json`.
 
 
 ## STEP assembly — 2026-09-30
 
-`MAIN_POWER/MAIN_POWER_D8.step` includes the D8 board body and the 10 remaining mounted component volumes (J2–J6 and F1–F5). The tall J1 terminal proxy has been removed to reflect the flat solder-pad input; the pads, solder and user-routed 10 AWG leads are not modeled as STEP solids. The other component volumes use scaled KiCad STEP proxies for JST VH connectors and blade-fuse holders, not exact vendor geometry. Use the file for arrangement/space review only; confirm enclosure clearances with vendor CAD before release. A copy of the prior STEP with the terminal proxy is retained in `MAIN_POWER/verification/MAIN_POWER_D8_with_previous_J1_terminal.step` for reference only.
+`MAIN_POWER/MAIN_POWER_D8.step` was regenerated from the V3 outline on 2026-10-01. It includes the board body and 10 mounted component volumes (J2–J6 and F1–F5); J1 is the two flat input pads and the 10 AWG leads are not modeled. Connector and fuse-holder shapes are simplified STEP model proxies, not exact vendor geometry. Use the file for arrangement/space review only; confirm enclosure clearances with vendor CAD before release.
