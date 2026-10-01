@@ -83,15 +83,15 @@ def step_box(x1, y1, z1, x2, y2, z2, start_id):
 
 
 def main():
-    # Footprint origin is at the pair midpoint. Two terminals are 10.16 mm apart.
-    # Each right-angle terminal has its 6.35 mm blade width along the board's
-    # Y axis (toward the board top, parallel to the fuse row), 0.8 mm thick in
-    # X, and 8.89 mm high. Two 1 mm solder tails align to each terminal's pads.
+    # KiCad mirrors 3D-model Y for an F.Cu footprint. Author the shape with
+    # positive model Y so the installed blades point toward board top (global
+    # negative Y), and mirror the through-hole pin coordinates for the same
+    # transform. Each terminal has two solder tails at 5.08 mm pitch.
     boxes = []
     for cx in (-5.08, 5.08):
-        boxes.append((cx - 0.4, -11.43, 0, cx + 0.4, -5.08, 8.89))
-        boxes.append((cx - 0.4, -5.08, 0, cx + 0.4, 0, 0.8))
-        for cy in (-5.08, 0.0):
+        boxes.append((cx - 0.4, 5.08, 0, cx + 0.4, 11.43, 8.89))
+        boxes.append((cx - 0.4, 0, 0, cx + 0.4, 5.08, 0.8))
+        for cy in (0.0, 5.08):
             boxes.append((cx - 0.5, cy - 0.5, -3.81, cx + 0.5, cy + 0.5, 0.8))
 
     entities = []
