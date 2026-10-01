@@ -900,7 +900,7 @@
 			(uuid "3091ae07-e284-5642-84dc-68af3f47408a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3d/JST_VH_B2P-VH_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1258,7 +1258,7 @@
 			(uuid "93c0578a-f072-536b-a12c-ef186aa49b2c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3d/JST_VH_B2P-VH_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1616,7 +1616,7 @@
 			(uuid "0356270e-cafb-5618-9c0c-2f736f430b57")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3d/JST_VH_B2P-VH_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1974,7 +1974,7 @@
 			(uuid "6856a587-0407-5633-b807-26b77e55dc71")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3d/JST_VH_B2P-VH_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2405,7 +2405,7 @@
 			(uuid "704a7046-8775-52ce-acdf-d8eb25bc7d08")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+		(model "${KIPRJMOD}/3d/JST_VH_B2P-VH_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2783,7 +2783,7 @@
 			(uuid "45afd432-d8f5-5f46-a798-5307d7676904")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.step"
+		(model "${KIPRJMOD}/3d/Littelfuse_FLR_1786165_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3088,7 +3088,7 @@
 			(uuid "60f84e3f-71a3-5768-a85f-e93877a2c957")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.step"
+		(model "${KIPRJMOD}/3d/Littelfuse_FLR_1786165_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3393,7 +3393,7 @@
 			(uuid "4e491b8e-f679-5ff8-a45c-b989299646d6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.step"
+		(model "${KIPRJMOD}/3d/Littelfuse_FLR_1786165_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3698,7 +3698,7 @@
 			(uuid "d3504ff0-07c3-5104-b982-4dcc17036496")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.step"
+		(model "${KIPRJMOD}/3d/Littelfuse_FLR_1786165_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4003,7 +4003,7 @@
 			(uuid "3ffc86ca-d981-5ffd-8e92-6a6d85d21ae9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD7_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Blade_Mini_Keystone_3568.step"
+		(model "${KIPRJMOD}/3d/Littelfuse_FLR_1786165_ENVELOPE.step"
 			(offset
 				(xyz 0 0 0)
 			)

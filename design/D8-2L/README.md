@@ -19,6 +19,6 @@ KiCad 10.0.6 DRC with zone refill reports 0 violations, 0 unconnected items, and
 The top-view review is `MAIN_POWER/review/MAIN_POWER_D8.svg`; the underside view is `MAIN_POWER/review/MAIN_POWER_D8_bottom.svg`. The DRC data is `MAIN_POWER/verification/D8_DRC.json`.
 
 
-## STEP assembly — 2026-09-30
+## STEP assembly — 2026-10-01
 
-`MAIN_POWER/MAIN_POWER_D8.step` was regenerated from the V3 outline on 2026-10-01. It includes the board body and 10 mounted component volumes (J2–J6 and F1–F5); J1 is the two flat input pads and the 10 AWG leads are not modeled. Connector and fuse-holder shapes are simplified STEP model proxies, not exact vendor geometry. Use the file for arrangement/space review only; confirm enclosure clearances with vendor CAD before release.
+`MAIN_POWER/MAIN_POWER_D8.step` includes the board, solder-mask surfaces, and all 10 modeled components (J2–J6 and F1–F5). J1 is the two flat input pads; input wires are not modeled. The JST VH and Littelfuse FLR bodies use project-local dimensioned envelope STEP models because those vendor models are absent from the installed KiCad model library. These simplified volumes preserve the specified connector/fuse identities and overall envelopes, but omit detail; use the STEP for arrangement and preliminary clearance review, then verify with vendor CAD before release. Raw tracks, pads, and zones are excluded from STEP export. Run `tools/export_d8_main_steps.ps1` to regenerate both D8 MAIN STEP assemblies.

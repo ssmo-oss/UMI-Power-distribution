@@ -84,12 +84,13 @@ def step_box(x1, y1, z1, x2, y2, z2, start_id):
 
 def main():
     # Footprint origin is at the pair midpoint. Two terminals are 10.16 mm apart.
-    # Each proxy has a vertical 6.35 x 0.8 x 8.89 mm blade, a 0.8 mm mounting
-    # strap, and two 1 mm wide solder tails through the board.
+    # Each right-angle terminal has its 6.35 mm blade width along the board's
+    # Y axis (toward the board top, parallel to the fuse row), 0.8 mm thick in
+    # X, and 8.89 mm high. Two 1 mm solder tails align to each terminal's pads.
     boxes = []
     for cx in (-5.08, 5.08):
-        boxes.append((cx - 3.175, -10.16, 0, cx + 3.175, -9.36, 8.89))
-        boxes.append((cx - 3.175, -9.36, 0, cx + 3.175, 0, 0.8))
+        boxes.append((cx - 0.4, -11.43, 0, cx + 0.4, -5.08, 8.89))
+        boxes.append((cx - 0.4, -5.08, 0, cx + 0.4, 0, 0.8))
         for cy in (-5.08, 0.0):
             boxes.append((cx - 0.5, cy - 0.5, -3.81, cx + 0.5, cy + 0.5, 0.8))
 
